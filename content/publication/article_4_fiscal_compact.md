@@ -1,9 +1,9 @@
 +++
-title = "Forecasting Deflation Probability in The EA: A Combinatoric Approach"
-date = "2017-12-01"
+title = "Fiscal Compact and Debt Consolidation Dynamics"
+date = "2016-09-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["L Brugnolini"]
+authors = ["L. Brugnolini", "L. Corrado"]
 
 # Publication type.
 # Legend:
@@ -17,25 +17,25 @@ authors = ["L Brugnolini"]
 publication_types = ["3"]
 
 # Publication name and optional abbreviated version.
-publication = "Work in progress"
-publication_short = ""
+publication = ""
+publication_short = "Submitted"
 
 # Abstract and optional shortened version.
-abstract = "I assess and forecast the probability of deflation in the EA at different horizons using a binomial probit model. I select the best predictors among more than one-hundred variables adopting a two-step combinatoric approach and exploiting parallel computation in Julia language. I show that the best-selected variables coincide to those standardly included in a small New Keynesian model. Also, I assess the goodness of the models using three different loss functions: the Mean Absolute Error (MAE), the Root Mean Squared Error (RMSE) and the Area Under the Receiver Operating Characteristics (AUROC). The results are reasonably consistent among the three criteria. Finally, I compute an index averaging the forecast to assess the probability of being in a deflation state in the next two years. The index shows that having inflation above the 2% level before March 2019 is extremely unlikely. "
+abstract = "The paper analyses the macroeconomic effects of a debt consolidation policy in the European Union mimicking the Fiscal Compact rule. The rule requires the signatory states to target a debt-to-GDP ratio below 60%. Within the context of Dynamic Stochastic General Equilibrium models, we use a fully micro-founded New Keynesian model to understand the implications of including a debt consolidation policy. We show that in case of a negative shock hitting nominal variables (cost-push shock and monetary shock) the effects are negligible, while in case of a negative shock hitting real variables (productivity shock, public spending shock, taxation shock) the macroeconomic framework worsens as a function of the rigidity of the debt consolidation rule. As a limiting case, we show that the effects on output, employment and consumption are sizable."
 
 # Featured image thumbnail (optional)
 image_preview = ""
 
 # Is this a selected publication? (true/false)
-selected = true
+selected = false
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-projects = ""
+#projects = [""]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "publication/fiscal_compact.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -47,7 +47,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "", url = ""}]
+url_custom = [{name = "Appendix", url = "publication/fiscal_compact_appendix.pdf"}]
 
 # Does the content use math formatting?
 math = true
@@ -58,7 +58,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "headers/fi.png"
+image = "headers/fc.png"
 caption = "My caption :smile:"
 
 +++
