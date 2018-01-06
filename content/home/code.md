@@ -15,8 +15,9 @@ weight = 65
 
 +++
 
-I am working on the following Julia packages on GitHub:
+## I am working on the following Julia packages on GitHub:
 
-- CombinatoricForecasting.jl
-- VAR.jl
+
+###### 1. Forecasting using a parallel combinatoric approach -- with application on US non-farm payrolls: [NFP.jl](https://github.com/lucabrugnolini/NFP.jl)
+###### 2. Vector autoregressive model in Julia: [VAR.jl](https://github.com/lucabrugnolini/VAR.jl)
 

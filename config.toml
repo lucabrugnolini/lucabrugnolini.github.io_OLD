@@ -251,14 +251,14 @@ defaultContentLanguageInSubdir = false
   url = "#teaching"
   weight = 3
 
-# [[menu.main]]
-#   name = "Code"
-#   url = "#code"
-#   weight = 4
+[[menu.main]]
+  name = "Code"
+  url = "#code"
+  weight = 4
 
 # [[menu.main]]
 #   name = "CV"
-#   url = "#cv"
+#   url = "#curriculum"
 #   weight = 5
 
 # Taxonomies.
