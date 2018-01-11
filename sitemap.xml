@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>https://lucabrugnolini.github.io/code/</loc>
+      <lastmod>2018-01-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://lucabrugnolini.github.io/publication/article_3_forecasting_inflation/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -25,6 +34,24 @@
     
       <loc>https://lucabrugnolini.github.io/publication/article_2_about_local_projection/</loc>
       <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://lucabrugnolini.github.io/codes/nfp/</loc>
+      <lastmod>2017-08-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://lucabrugnolini.github.io/codes/var/</loc>
+      <lastmod>2017-08-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -61,6 +88,16 @@
     <url>
     
       <loc>https://lucabrugnolini.github.io/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://lucabrugnolini.github.io/codes/</loc>
+      <lastmod>2017-08-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
