@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -13,7 +11,7 @@
   <meta name="description" content="Ph.D. Candidate">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://lucabrugnolini.github.io/codes/">
+  <link rel="alternate" hreflang="en-us" href="https://lucabrugnolini.github.io/code/var/">
 
   
   
@@ -64,43 +62,32 @@
   
 
   
-<<<<<<< HEAD
-  <link rel="alternate" href="https://lucabrugnolini.github.io/code/index.xml" type="application/rss+xml" title="Luca Brugnolini">
-  <link rel="feed" href="https://lucabrugnolini.github.io/code/index.xml" type="application/rss+xml" title="Luca Brugnolini">
-=======
-  <link rel="alternate" href="https://lucabrugnolini.github.io/codes/index.xml" type="application/rss+xml" title="Luca Brugnolini">
-  <link rel="feed" href="https://lucabrugnolini.github.io/codes/index.xml" type="application/rss+xml" title="Luca Brugnolini">
->>>>>>> afd03be45fb66d9c3e541b910d7f40b02ccd34a9
+  <link rel="alternate" href="https://lucabrugnolini.github.io/index.xml" type="application/rss+xml" title="Luca Brugnolini">
+  <link rel="feed" href="https://lucabrugnolini.github.io/index.xml" type="application/rss+xml" title="Luca Brugnolini">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://lucabrugnolini.github.io/codes/">
+  <link rel="canonical" href="https://lucabrugnolini.github.io/code/var/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Luca Brugnolini">
-<<<<<<< HEAD
-  <meta property="og:url" content="https://lucabrugnolini.github.io/code/">
-=======
-  <meta property="og:url" content="https://lucabrugnolini.github.io/codes/">
->>>>>>> afd03be45fb66d9c3e541b910d7f40b02ccd34a9
-  <meta property="og:title" content="Codes | Luca Brugnolini">
-  <meta property="og:description" content="Ph.D. Candidate">
+  <meta property="og:url" content="https://lucabrugnolini.github.io/code/var/">
+  <meta property="og:title" content="VAR.jl | Luca Brugnolini">
+  <meta property="og:description" content="">
   <meta property="og:locale" content="en-us">
   
-<<<<<<< HEAD
-  <meta property="og:updated_time" content="2018-01-11T00:00:00&#43;00:00">
-=======
-  <meta property="og:updated_time" content="2017-08-01T00:00:00&#43;00:00">
->>>>>>> afd03be45fb66d9c3e541b910d7f40b02ccd34a9
+  <meta property="article:published_time" content="2017-08-01T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2017-08-01T00:00:00&#43;00:00">
   
 
   
 
-  <title>Codes | Luca Brugnolini</title>
+  <title>VAR.jl | Luca Brugnolini</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -207,74 +194,180 @@
 </nav>
 
 
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
 
 
+  <div class="article-container">
+    <div class="article-inner">
+      <h1 itemprop="name">VAR.jl</h1>
 
-<div class="universal-wrapper">
+      
 
-  <h1>Codes</h1>
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2017-08-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Aug 1, 2017
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
 
   
 
   
   
-  <div>
-<<<<<<< HEAD
-    <h2><a href="https://lucabrugnolini.github.io/code/code/">Julia Packages</a></h2>
-    <div class="article-style">
-=======
-    <h2><a href="https://lucabrugnolini.github.io/codes/nfp/">NFP</a></h2>
-    <div class="article-style">
-      
-      <ol>
-<li>NFP.jl Forecasting Variables using a combinatoric approach and exploiting parallel computing in Julia. Installation Pkg.clone(&quot;<a href="https://github.com/lucabrugnolini/NFP.jl&quot;" target="_blank">https://github.com/lucabrugnolini/NFP.jl&quot;</a>)  Introduction Given a (balaanced) dataset of K macroeconomic variables, the objective is to select the best model to predict future values of a target variable. The selection procedure consists in (i) select the best iBest variables according to several out-of-sample criteria and then use these variables in models that use their combination. More specifically:</li>
-</ol>
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=VAR.jl&amp;url=https%3a%2f%2flucabrugnolini.github.io%2fcode%2fvar%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2flucabrugnolini.github.io%2fcode%2fvar%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2flucabrugnolini.github.io%2fcode%2fvar%2f&amp;title=VAR.jl"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2flucabrugnolini.github.io%2fcode%2fvar%2f&amp;title=VAR.jl"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=VAR.jl&amp;body=https%3a%2f%2flucabrugnolini.github.io%2fcode%2fvar%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
 
->>>>>>> afd03be45fb66d9c3e541b910d7f40b02ccd34a9
-      
-    </div>
-  </div>
-  
-  <div>
-<<<<<<< HEAD
-    <h2><a href="https://lucabrugnolini.github.io/code/nfp/">NFP.jl</a></h2>
-    <div class="article-style">
-      
-      Forecasting Variables using a combinatoric approach and exploiting parallel computing in Julia (NFP.jl) Installation Pkg.clone(&quot;<a href="https://github.com/lucabrugnolini/NFP.jl&quot;" target="_blank">https://github.com/lucabrugnolini/NFP.jl&quot;</a>)  Introduction Given a (balanced) dataset of K macroeconomic variables, the objective is to select the best model to predict future values of a target variable. The selection procedure consists in (i) select the best iBest variables according to several out-of-sample criteria and then use these variables in models that use their combination. More specifically:
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://lucabrugnolini.github.io/code/var/">VAR.jl</a></h2>
-    <div class="article-style">
-      
-      Vector Autoregressive model in Julia (VAR.jl) Installation Pkg.clone(&quot;<a href="https://github.com/lucabrugnolini/VAR.jl&quot;" target="_blank">https://github.com/lucabrugnolini/VAR.jl&quot;</a>)  Introduction This package is a work in progress for the estimation and identification of Vector Autoregressive (VAR) model.
-Status VAR Basic constructor Lag-length selection AIC AICC BIC HQC VAR(1) form Impulse response function (IRFs) Identification Reduce form Cholesky BQ Uligh HFI  Confidence bands Asymptotic Bootstrap Bootstrap-after-bootstrap   Local projection IRFs Lag-length selection Confidence bands Standard Bootstrap   Example using VARs V = VAR(Y, p, i)  Where Y is a matrix with data, p is the lag-length and i is a Boolean for including an intercept (default is true).
-      
-    </div>
-  </div>
-  
 
-=======
-    <h2><a href="https://lucabrugnolini.github.io/codes/var/">VAR</a></h2>
-    <div class="article-style">
-      
-      <ol>
-<li>VAR.jl Vector autoregressive model in Julia: Installation Pkg.clone(&quot;<a href="https://github.com/lucabrugnolini/VAR.jl&quot;" target="_blank">https://github.com/lucabrugnolini/VAR.jl&quot;</a>)  Introduction This package is a work in progress for the estimation and identification of Vector Autoregressive (VAR) model.
-Status Basic constructor Lag-length selection AIC AICC BIC HQC  VAR(1) form Impulse response function (IRFs) Identification Reduce form Cholesky BQ Uligh HFI Confidence bands Asymptotic Bootstrap Bootstrap-after-bootstrap Local projection IRFs Lag-length selection Confidence bands Standard Bootstrap    Example using VARs V = VAR(Y, p, i)  Where Y is a matrix with data, p is the lag-length and i is a Boolean for including an intercept (default is true).</li>
-</ol>
-
-      
-    </div>
-  </div>
   
-
->>>>>>> afd03be45fb66d9c3e541b910d7f40b02ccd34a9
-  
-
 
 </div>
+
+
+      <div class="article-style" itemprop="articleBody">
+        
+
+<h4 id="vector-autoregressive-model-in-julia-var-jl-https-github-com-lucabrugnolini-var-jl">Vector Autoregressive model in Julia (<a href="https://github.com/lucabrugnolini/VAR.jl" target="_blank">VAR.jl</a>)</h4>
+
+<h2 id="installation">Installation</h2>
+
+<pre><code class="language-julia">Pkg.clone(&quot;https://github.com/lucabrugnolini/VAR.jl&quot;)
+</code></pre>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>This package is a work in progress for the estimation and identification of Vector Autoregressive (VAR) model.</p>
+
+<h2 id="status">Status</h2>
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> VAR
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> Basic constructor</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> Lag-length selection</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> AIC</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> AICC</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> BIC</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> HQC</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> VAR(1) form</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> Impulse response function (IRFs)</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Identification
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> Reduce form</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> Cholesky</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> BQ</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Uligh</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> HFI</label></li>
+</ul></label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> Confidence bands
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> Asymptotic</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> Bootstrap</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> Bootstrap-after-bootstrap</label></li>
+</ul></label></li>
+</ul></label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Local projection IRFs
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> Lag-length selection</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Confidence bands</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Standard</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Bootstrap</label></li>
+</ul></label></li>
+</ul>
+
+<h2 id="example">Example</h2>
+
+<pre><code class="language-julia">using VARs
+V = VAR(Y, p, i)
+</code></pre>
+
+<p>Where <code>Y</code> is a matrix with data, <code>p</code> is the lag-length and <code>i</code> is a Boolean for including an intercept (default is true). It returns a fitted VAR(p) model with the following structure:</p>
+
+<pre><code class="language-julia">type VAR
+  Y::Array # dep. variables
+  X::Array # covariates
+  β::Array # parameters
+  ϵ::Array # residuals
+  Σ::Array # VCV matrix
+  p::Int64 # lag-length
+  i::Bool # true or false for including an intercept (default is true)
+end
+</code></pre>
+
+<p>You can access to each element writing <code>V.</code> and than the element you are interested in (for example for the covariates <code>V.X</code>).</p>
+
+      </div>
+
+      
+
+    </div>
+  </div>
+
+</article>
+
+
+
+
+
+
+<div class="article-container">
+  
+
+</div>
+
 <footer class="site-footer">
   <div class="container">
     <p class="powered-by">
@@ -357,6 +450,4 @@ Status Basic constructor Lag-length selection AIC AICC BIC HQC  VAR(1) form Impu
 
   </body>
 </html>
-
-
 
