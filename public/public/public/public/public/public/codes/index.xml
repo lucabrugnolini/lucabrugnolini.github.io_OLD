@@ -7,24 +7,8 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Luca Brugnolini</copyright>
-    <lastBuildDate>Thu, 11 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Aug 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/codes/" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Julia Packages</title>
-      <link>https://lucabrugnolini.github.io/codes/code/</link>
-      <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucabrugnolini.github.io/codes/code/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/lucabrugnolini/NFP.jl&#34; target=&#34;_blank&#34;&gt;NFP.jl:&lt;/a&gt;
-Forecasting Variables using a combinatoric approach and exploiting parallel computing in Julia. &lt;a href=&#34;https://lucabrugnolini.github.io/codes/NFP&#34; target=&#34;_blank&#34;&gt;(more)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/lucabrugnolini/VAR.jl&#34; target=&#34;_blank&#34;&gt;VAR.jl:&lt;/a&gt;
-Vector autoregressive model in Julia &lt;a href=&#34;https://lucabrugnolini.github.io/codes/VAR&#34; target=&#34;_blank&#34;&gt;(more)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
     
     <item>
       <title>NFP</title>
