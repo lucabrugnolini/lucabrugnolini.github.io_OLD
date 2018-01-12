@@ -253,7 +253,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Code"
-  url = "codes/code"
+  url = "/code/code/"
   weight = 4
 
 # [[menu.main]]

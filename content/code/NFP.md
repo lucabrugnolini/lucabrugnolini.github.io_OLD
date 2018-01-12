@@ -1,14 +1,10 @@
 +++
 date = "2017-08-01"
-title = "NFP"
-
+title = "NFP.jl"
 +++
 
 
-
-# [1. NFP.jl](https://github.com/lucabrugnolini/NFP.jl)
-
-###### Forecasting Variables using a combinatoric approach and exploiting parallel computing in Julia.
+#### Forecasting Variables using a combinatoric approach and exploiting parallel computing in Julia ([NFP.jl](https://github.com/lucabrugnolini/NFP.jl))
 
 ## Installation
 ```julia
@@ -17,7 +13,7 @@ Pkg.clone("https://github.com/lucabrugnolini/NFP.jl")
 
 
 ## Introduction
-Given a (balaanced) dataset of _K_ macroeconomic variables, the objective is to select the best model to predict future values of a target variable. The selection procedure consists in (i) select the best _iBest_ variables according to several out-of-sample criteria and then use these variables in models that use their combination. More specifically:
+Given a (balanced) dataset of _K_ macroeconomic variables, the objective is to select the best model to predict future values of a target variable. The selection procedure consists in (i) select the best _iBest_ variables according to several out-of-sample criteria and then use these variables in models that use their combination. More specifically:
 
 1. the procedure selects the best `iBest` variables using two different criteria (mean absolute error and root mean squared error). This selection step is univariate, i.e. the variables are chosen by running a simple regression of the target variable on each variable of the dataset. 
 

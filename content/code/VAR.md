@@ -1,12 +1,12 @@
 +++
 date = "2017-08-01"
-title = "VAR"
+title = "VAR.jl"
 
 +++
 
-# 2. [VAR.jl](https://github.com/lucabrugnolini/VAR.jl)
+#### Vector Autoregressive model in Julia ([VAR.jl](https://github.com/lucabrugnolini/VAR.jl))
 
-###### Vector autoregressive model in Julia: 
+
 
 ## Installation
 ```julia
@@ -16,29 +16,30 @@ Pkg.clone("https://github.com/lucabrugnolini/VAR.jl")
 This package is a work in progress for the estimation and identification of Vector Autoregressive (VAR) model.
 
 ## Status
-- [x] Basic constructor
-- [x] Lag-length selection
- - [x] AIC
- - [x] AICC
- - [x] BIC
- - [x] HQC
-- [x] VAR(1) form
-- [x] Impulse response function (IRFs)
-  - [ ] Identification 
-    - [x] Reduce form
-    - [x] Cholesky
-    - [ ] BQ
-    - [ ] Uligh
-    - [ ] HFI
-  - [x] Confidence bands
-    - [x] Asymptotic
-    - [x] Bootstrap
-    - [x] Bootstrap-after-bootstrap
-   - [ ] Local projection IRFs
-     - [ ] Lag-length selection
-     - [ ] Confidence bands
-       - [ ] Standard
-        - [ ] Bootstrap
+- [ ] VAR 
+  - [x] Basic constructor
+  - [x] Lag-length selection
+   - [x] AIC
+   - [x] AICC
+   - [x] BIC
+   - [x] HQC
+  - [x] VAR(1) form
+  - [x] Impulse response function (IRFs)
+    - [ ] Identification 
+      - [x] Reduce form
+      - [x] Cholesky
+      - [ ] BQ
+      - [ ] Uligh
+      - [ ] HFI
+    - [x] Confidence bands
+      - [x] Asymptotic
+      - [x] Bootstrap
+      - [x] Bootstrap-after-bootstrap
+- [ ] Local projection IRFs
+  - [ ] Lag-length selection
+  - [ ] Confidence bands
+    - [ ] Standard
+    - [ ] Bootstrap
 
 ## Example
 ```julia
