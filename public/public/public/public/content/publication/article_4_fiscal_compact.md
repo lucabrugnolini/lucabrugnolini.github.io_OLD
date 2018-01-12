@@ -24,7 +24,7 @@ publication_short = "Submitted"
 abstract = "<p style='text-align: justify;'>The paper analyses the macroeconomic effects of a debt consolidation policy in the European Union mimicking the Fiscal Compact rule. The rule requires the signatory states to target a debt-to-GDP ratio below 60%. Within the context of Dynamic Stochastic General Equilibrium models, we use a fully micro-founded New Keynesian model to understand the implications of including a debt consolidation policy. We show that in case of a negative shock hitting nominal variables (cost-push shock and monetary shock) the effects are negligible, while in case of a negative shock hitting real variables (productivity shock, public spending shock, taxation shock) the macroeconomic framework worsens as a function of the rigidity of the debt consolidation rule. As a limiting case, we show that the effects on output, employment and consumption are sizable.</p>"
 
 # Featured image thumbnail (optional)
-image_preview = ""
+image_preview = "headers/fc.png"
 
 # Is this a selected publication? (true/false)
 selected = false
@@ -58,7 +58,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "headers/fc.png"
+image = ""
 caption = "My caption :smile:"
 
 +++
