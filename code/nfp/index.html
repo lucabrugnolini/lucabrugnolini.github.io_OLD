@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.32.2" />
+  <meta name="generator" content="Hugo 0.32.4" />
   <meta name="author" content="Luca Brugnolini">
   <meta name="description" content="Ph.D. Candidate">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://lucabrugnolini.github.io/codes/nfp/">
+  <link rel="alternate" hreflang="en-us" href="https://lucabrugnolini.github.io/code/nfp/">
 
   
   
@@ -70,13 +70,13 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://lucabrugnolini.github.io/codes/nfp/">
+  <link rel="canonical" href="https://lucabrugnolini.github.io/code/nfp/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Luca Brugnolini">
-  <meta property="og:url" content="https://lucabrugnolini.github.io/codes/nfp/">
-  <meta property="og:title" content="NFP | Luca Brugnolini">
+  <meta property="og:url" content="https://lucabrugnolini.github.io/code/nfp/">
+  <meta property="og:title" content="NFP.jl | Luca Brugnolini">
   <meta property="og:description" content="">
   <meta property="og:locale" content="en-us">
   
@@ -87,7 +87,7 @@
 
   
 
-  <title>NFP | Luca Brugnolini</title>
+  <title>NFP.jl | Luca Brugnolini</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -175,7 +175,7 @@
         
 
         <li class="nav-item">
-          <a href="/codes/code">
+          <a href="/code/code/">
             
             <span>Code</span>
             
@@ -201,7 +201,7 @@
 
   <div class="article-container">
     <div class="article-inner">
-      <h1 itemprop="name">NFP</h1>
+      <h1 itemprop="name">NFP.jl</h1>
 
       
 
@@ -232,35 +232,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=NFP&amp;url=https%3a%2f%2flucabrugnolini.github.io%2fcodes%2fnfp%2f"
+         href="https://twitter.com/intent/tweet?text=NFP.jl&amp;url=https%3a%2f%2flucabrugnolini.github.io%2fcode%2fnfp%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2flucabrugnolini.github.io%2fcodes%2fnfp%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2flucabrugnolini.github.io%2fcode%2fnfp%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2flucabrugnolini.github.io%2fcodes%2fnfp%2f&amp;title=NFP"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2flucabrugnolini.github.io%2fcode%2fnfp%2f&amp;title=NFP.jl"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2flucabrugnolini.github.io%2fcodes%2fnfp%2f&amp;title=NFP"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2flucabrugnolini.github.io%2fcode%2fnfp%2f&amp;title=NFP.jl"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=NFP&amp;body=https%3a%2f%2flucabrugnolini.github.io%2fcodes%2fnfp%2f">
+         href="mailto:?subject=NFP.jl&amp;body=https%3a%2f%2flucabrugnolini.github.io%2fcode%2fnfp%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -276,9 +276,7 @@
       <div class="article-style" itemprop="articleBody">
         
 
-<h1 id="1-nfp-jl-https-github-com-lucabrugnolini-nfp-jl"><a href="https://github.com/lucabrugnolini/NFP.jl" target="_blank">1. NFP.jl</a></h1>
-
-<h6 id="forecasting-variables-using-a-combinatoric-approach-and-exploiting-parallel-computing-in-julia">Forecasting Variables using a combinatoric approach and exploiting parallel computing in Julia.</h6>
+<h4 id="forecasting-variables-using-a-combinatoric-approach-and-exploiting-parallel-computing-in-julia-nfp-jl-https-github-com-lucabrugnolini-nfp-jl">Forecasting Variables using a combinatoric approach and exploiting parallel computing in Julia (<a href="https://github.com/lucabrugnolini/NFP.jl" target="_blank">NFP.jl</a>)</h4>
 
 <h2 id="installation">Installation</h2>
 
@@ -287,7 +285,7 @@
 
 <h2 id="introduction">Introduction</h2>
 
-<p>Given a (balaanced) dataset of <em>K</em> macroeconomic variables, the objective is to select the best model to predict future values of a target variable. The selection procedure consists in (i) select the best <em>iBest</em> variables according to several out-of-sample criteria and then use these variables in models that use their combination. More specifically:</p>
+<p>Given a (balanced) dataset of <em>K</em> macroeconomic variables, the objective is to select the best model to predict future values of a target variable. The selection procedure consists in (i) select the best <em>iBest</em> variables according to several out-of-sample criteria and then use these variables in models that use their combination. More specifically:</p>
 
 <ol>
 <li><p>the procedure selects the best <code>iBest</code> variables using two different criteria (mean absolute error and root mean squared error). This selection step is univariate, i.e. the variables are chosen by running a simple regression of the target variable on each variable of the dataset.</p></li>
