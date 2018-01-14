@@ -11,28 +11,13 @@ title = "Teaching"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 60
+weight = 40
 
 +++
 
 #### I am/was the teaching assistant for the following courses at University of Rome Tor Vergata:
 
-<html>
-<head>
-<style>
-ul {
-    list-style-image: url('/img/icon.png');
-}
-</style>
-</head>
-<body>
-
-<ul>
-  <li>2016-2018: Advanced Macroeconomics</li>
-  <li>2013-2018: Computational Economics</li>
-  <li>2015: Introduction to DSGE models</li>
-</ul>
-
-</body>
-</html>
+- 2016-2018: [Macroeconomics](http://economia.uniroma2.it/master-science/economics/corso/893/), TA (Luisa Corrado). <a href="teaching/rbc_notes.pdf" class="btn">Notes</a>
+- 2013-2018: [Computational Economics](http://www.economia.uniroma2.it/public/gsie/file/Corrado.pdf), TA (Luisa Corrado). <a href="teaching/xode_NK.zip" class="btn">Code NK</a>
+- 2015: [Introduction to DSGE models](teaching/Introduction to DSGE Models (RBC).pdf), Lecturer (Luisa Corrado). <a href="teaching/Introduction to DSGE models (NK).pdf" class="btn">Notes</a>
 
