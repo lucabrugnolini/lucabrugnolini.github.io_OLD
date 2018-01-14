@@ -21,8 +21,7 @@ publication = "Work in progress"
 publication_short = ""
 
 # Abstract and optional shortened version.
-abstract = "I assess and forecast the probability of deflation in the EA at different horizons using a binomial probit model. I select the best predictors among more than one-hundred variables adopting a two-step combinatoric approach and exploiting parallel computation in Julia language. I show that the best-selected variables coincide to those standardly included in a small New Keynesian model. Also, I assess the goodness of the models using three different loss functions: the Mean Absolute Error (MAE), the Root Mean Squared Error (RMSE) and the Area Under the Receiver Operating Characteristics (AUROC). The results are reasonably consistent among the three criteria. Finally, I compute an index averaging the forecast to assess the probability of being in a deflation state in the next two years. The index shows that having inflation above the 2% level before March 2019 is extremely unlikely. "
-
+abstract = "<p style='text-align: justify;'> I assess and forecast the probability of deflation in the EA at different horizons using a binomial probit model. I select the best predictors among more than one-hundred variables adopting a two-step combinatoric approach and exploiting parallel computation in Julia language. I show that the best-selected variables coincide to those standardly included in a small New Keynesian model. Also, I assess the goodness of the models using three different loss functions: the Mean Absolute Error (MAE), the Root Mean Squared Error (RMSE) and the Area Under the Receiver Operating Characteristics (AUROC). The results are reasonably consistent among the three criteria. Finally, I compute an index averaging the forecast to assess the probability of being in a deflation state in the next two years. The index shows that having inflation above the 2% level before March 2019 is extremely unlikely.</p>"
 # Featured image thumbnail (optional)
 image_preview = ""
 
@@ -59,8 +58,7 @@ highlight = true
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
 image = "headers/fi.png"
-caption = "My caption :smile:"
+caption = ""
 
 +++
 
-More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
