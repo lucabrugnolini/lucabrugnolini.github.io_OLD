@@ -1,6 +1,5 @@
 +++
 date = 2017-01-01T00:00:00  # Schedule page publish date.
-
 title = "I Vienna Workshop on Economic Forecasting"
 time_start = 2018-02-15T09:00:00Z
 time_end = 2018-02-17T13:00:00Z 
