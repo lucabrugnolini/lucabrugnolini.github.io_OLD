@@ -2,39 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Codes on Luca Brugnolini</title>
-    <link>https://lucabrugnolini.github.io/code/</link>
+    <link>https://lucabrugnolini.github.io/codes/</link>
     <description>Recent content in Codes on Luca Brugnolini</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Luca Brugnolini</copyright>
     <lastBuildDate>Thu, 11 Jan 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/code/" rel="self" type="application/rss+xml" />
+    <atom:link href="/codes/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Julia Packages</title>
-      <link>https://lucabrugnolini.github.io/code/code/</link>
+      <link>https://lucabrugnolini.github.io/codes/code/</link>
       <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://lucabrugnolini.github.io/code/code/</guid>
+      <guid>https://lucabrugnolini.github.io/codes/code/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/lucabrugnolini/NFP.jl&#34; target=&#34;_blank&#34;&gt;NFP.jl:&lt;/a&gt;
-Forecasting Variables using a combinatoric approach and exploiting parallel computing in Julia. &lt;a href=&#34;https://lucabrugnolini.github.io/code/nfp/&#34;&gt;(more)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+Forecasting Variables using a combinatoric approach and exploiting parallel computing in Julia. &lt;a href=&#34;https://lucabrugnolini.github.io/codes/NFP&#34; target=&#34;_blank&#34;&gt;(more)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/lucabrugnolini/VAR.jl&#34; target=&#34;_blank&#34;&gt;VAR.jl:&lt;/a&gt;
-Vector autoregressive model in Julia &lt;a href=&#34;https://lucabrugnolini.github.io/code/var/&#34;&gt;(more)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+Vector autoregressive model in Julia &lt;a href=&#34;https://lucabrugnolini.github.io/codes/VAR&#34; target=&#34;_blank&#34;&gt;(more)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
     
     <item>
-      <title>NFP.jl</title>
-      <link>https://lucabrugnolini.github.io/code/nfp/</link>
+      <title>NFP</title>
+      <link>https://lucabrugnolini.github.io/codes/nfp/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://lucabrugnolini.github.io/code/nfp/</guid>
+      <guid>https://lucabrugnolini.github.io/codes/nfp/</guid>
       <description>
 
-&lt;h4 id=&#34;forecasting-variables-using-a-combinatoric-approach-and-exploiting-parallel-computing-in-julia-nfp-jl-https-github-com-lucabrugnolini-nfp-jl&#34;&gt;Forecasting Variables using a combinatoric approach and exploiting parallel computing in Julia (&lt;a href=&#34;https://github.com/lucabrugnolini/NFP.jl&#34; target=&#34;_blank&#34;&gt;NFP.jl&lt;/a&gt;)&lt;/h4&gt;
+&lt;h1 id=&#34;1-nfp-jl-https-github-com-lucabrugnolini-nfp-jl&#34;&gt;&lt;a href=&#34;https://github.com/lucabrugnolini/NFP.jl&#34; target=&#34;_blank&#34;&gt;1. NFP.jl&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h6 id=&#34;forecasting-variables-using-a-combinatoric-approach-and-exploiting-parallel-computing-in-julia&#34;&gt;Forecasting Variables using a combinatoric approach and exploiting parallel computing in Julia.&lt;/h6&gt;
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 
@@ -43,7 +45,7 @@ Vector autoregressive model in Julia &lt;a href=&#34;https://lucabrugnolini.gith
 
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 
-&lt;p&gt;Given a (balanced) dataset of &lt;em&gt;K&lt;/em&gt; macroeconomic variables, the objective is to select the best model to predict future values of a target variable. The selection procedure consists in (i) select the best &lt;em&gt;iBest&lt;/em&gt; variables according to several out-of-sample criteria and then use these variables in models that use their combination. More specifically:&lt;/p&gt;
+&lt;p&gt;Given a (balaanced) dataset of &lt;em&gt;K&lt;/em&gt; macroeconomic variables, the objective is to select the best model to predict future values of a target variable. The selection procedure consists in (i) select the best &lt;em&gt;iBest&lt;/em&gt; variables according to several out-of-sample criteria and then use these variables in models that use their combination. More specifically:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;the procedure selects the best &lt;code&gt;iBest&lt;/code&gt; variables using two different criteria (mean absolute error and root mean squared error). This selection step is univariate, i.e. the variables are chosen by running a simple regression of the target variable on each variable of the dataset.&lt;/p&gt;&lt;/li&gt;
@@ -92,14 +94,16 @@ rmprocs(2:N_CORE)
     </item>
     
     <item>
-      <title>VAR.jl</title>
-      <link>https://lucabrugnolini.github.io/code/var/</link>
+      <title>VAR</title>
+      <link>https://lucabrugnolini.github.io/codes/var/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://lucabrugnolini.github.io/code/var/</guid>
+      <guid>https://lucabrugnolini.github.io/codes/var/</guid>
       <description>
 
-&lt;h4 id=&#34;vector-autoregressive-model-in-julia-var-jl-https-github-com-lucabrugnolini-var-jl&#34;&gt;Vector Autoregressive model in Julia (&lt;a href=&#34;https://github.com/lucabrugnolini/VAR.jl&#34; target=&#34;_blank&#34;&gt;VAR.jl&lt;/a&gt;)&lt;/h4&gt;
+&lt;h1 id=&#34;2-var-jl-https-github-com-lucabrugnolini-var-jl&#34;&gt;2. &lt;a href=&#34;https://github.com/lucabrugnolini/VAR.jl&#34; target=&#34;_blank&#34;&gt;VAR.jl&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h6 id=&#34;vector-autoregressive-model-in-julia&#34;&gt;Vector autoregressive model in Julia:&lt;/h6&gt;
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 
@@ -113,34 +117,29 @@ rmprocs(2:N_CORE)
 &lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;
 
 &lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; VAR
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Basic constructor&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Lag-length selection
 
 &lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Basic constructor&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Lag-length selection&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; AIC&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; AICC&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; BIC&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; HQC&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; VAR(1) form&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Impulse response function (IRFs)&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Identification
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Impulse response function (IRFs)
 
 &lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Identification&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Reduce form&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Cholesky&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; BQ&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Uligh&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; HFI&lt;/label&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Confidence bands
-
-&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Confidence bands&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Asymptotic&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Bootstrap&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Bootstrap-after-bootstrap&lt;/label&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Local projection IRFs
 
 &lt;ul class=&#34;task-list&#34;&gt;
@@ -148,6 +147,7 @@ rmprocs(2:N_CORE)
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Confidence bands&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Standard&lt;/label&gt;&lt;/li&gt;
 &lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Bootstrap&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
 

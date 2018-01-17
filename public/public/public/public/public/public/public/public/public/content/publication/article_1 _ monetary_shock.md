@@ -21,7 +21,7 @@ publication = ""
 publication_short = "Work in progress"
 
 # Abstract and optional shortened version.
-abstract = "We study the information flow from the ECB on policy dates since its inception, using tick data. We show that three factors capture about all of the variation in the yield curve but that these are different factors with different variance shares in the window that contains the rate decision announcement and the window that contains the press conference. We also show that the QE-related policy factor has been dominant in the recent period and that its effects have been very persistent on the long-end of the yield curve, with a half-life nearing two years. To carry out the analysis, we construct and describe the euro area Monetary Policy Event-Study Database. This database, which contains both daily and intraday asset price changes around the rate decision announcements as well as around press conferences, is a contribution on its own right and we expect it to be the standard in monetary policy research for the euro area. "
+abstract = "<p style='text-align: justify;'>We study the information flow from the ECB on policy dates since its inception, using tick data. We show that three factors capture about all of the variation in the yield curve but that these are different factors with different variance shares in the window that contains the rate decision announcement and the window that contains the press conference. We also show that the QE-related policy factor has been dominant in the recent period and that its effects have been very persistent on the long-end of the yield curve, with a half-life nearing two years. To carry out the analysis, we construct and describe the euro area Monetary Policy Event-Study Database. This database, which contains both daily and intraday asset price changes around the rate decision announcements as well as around press conferences, is a contribution on its own right and we expect it to be the standard in monetary policy research for the euro area.</p> "
 
 # Featured image thumbnail (optional)
 image_preview = ""
@@ -59,8 +59,6 @@ highlight = true
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
 image = "headers/msa.png"
-caption = "My caption :smile:"
+caption = ""
 
 +++
-
-More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
