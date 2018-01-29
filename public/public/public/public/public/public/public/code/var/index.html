@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.32.2" />
+  <meta name="generator" content="Hugo 0.32.4" />
   <meta name="author" content="Luca Brugnolini">
   <meta name="description" content="Ph.D. Candidate">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://lucabrugnolini.github.io/codes/var/">
+  <link rel="alternate" hreflang="en-us" href="https://lucabrugnolini.github.io/code/var/">
 
   
   
@@ -70,13 +70,13 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://lucabrugnolini.github.io/codes/var/">
+  <link rel="canonical" href="https://lucabrugnolini.github.io/code/var/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Luca Brugnolini">
-  <meta property="og:url" content="https://lucabrugnolini.github.io/codes/var/">
-  <meta property="og:title" content="VAR | Luca Brugnolini">
+  <meta property="og:url" content="https://lucabrugnolini.github.io/code/var/">
+  <meta property="og:title" content="VAR.jl | Luca Brugnolini">
   <meta property="og:description" content="">
   <meta property="og:locale" content="en-us">
   
@@ -87,7 +87,7 @@
 
   
 
-  <title>VAR | Luca Brugnolini</title>
+  <title>VAR.jl | Luca Brugnolini</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -175,7 +175,7 @@
         
 
         <li class="nav-item">
-          <a href="/codes/code">
+          <a href="/code/code/">
             
             <span>Code</span>
             
@@ -201,7 +201,7 @@
 
   <div class="article-container">
     <div class="article-inner">
-      <h1 itemprop="name">VAR</h1>
+      <h1 itemprop="name">VAR.jl</h1>
 
       
 
@@ -232,35 +232,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=VAR&amp;url=https%3a%2f%2flucabrugnolini.github.io%2fcodes%2fvar%2f"
+         href="https://twitter.com/intent/tweet?text=VAR.jl&amp;url=https%3a%2f%2flucabrugnolini.github.io%2fcode%2fvar%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2flucabrugnolini.github.io%2fcodes%2fvar%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2flucabrugnolini.github.io%2fcode%2fvar%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2flucabrugnolini.github.io%2fcodes%2fvar%2f&amp;title=VAR"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2flucabrugnolini.github.io%2fcode%2fvar%2f&amp;title=VAR.jl"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2flucabrugnolini.github.io%2fcodes%2fvar%2f&amp;title=VAR"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2flucabrugnolini.github.io%2fcode%2fvar%2f&amp;title=VAR.jl"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=VAR&amp;body=https%3a%2f%2flucabrugnolini.github.io%2fcodes%2fvar%2f">
+         href="mailto:?subject=VAR.jl&amp;body=https%3a%2f%2flucabrugnolini.github.io%2fcode%2fvar%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -276,9 +276,7 @@
       <div class="article-style" itemprop="articleBody">
         
 
-<h1 id="2-var-jl-https-github-com-lucabrugnolini-var-jl">2. <a href="https://github.com/lucabrugnolini/VAR.jl" target="_blank">VAR.jl</a></h1>
-
-<h6 id="vector-autoregressive-model-in-julia">Vector autoregressive model in Julia:</h6>
+<h4 id="vector-autoregressive-model-in-julia-var-jl-https-github-com-lucabrugnolini-var-jl">Vector Autoregressive model in Julia (<a href="https://github.com/lucabrugnolini/VAR.jl" target="_blank">VAR.jl</a>)</h4>
 
 <h2 id="installation">Installation</h2>
 
@@ -292,29 +290,34 @@
 <h2 id="status">Status</h2>
 
 <ul class="task-list">
-<li><label><input type="checkbox" checked disabled class="task-list-item"> Basic constructor</label></li>
-<li><label><input type="checkbox" checked disabled class="task-list-item"> Lag-length selection
+<li><label><input type="checkbox" disabled class="task-list-item"> VAR
 
 <ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> Basic constructor</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> Lag-length selection</label></li>
 <li><label><input type="checkbox" checked disabled class="task-list-item"> AIC</label></li>
 <li><label><input type="checkbox" checked disabled class="task-list-item"> AICC</label></li>
 <li><label><input type="checkbox" checked disabled class="task-list-item"> BIC</label></li>
 <li><label><input type="checkbox" checked disabled class="task-list-item"> HQC</label></li>
-</ul></label></li>
 <li><label><input type="checkbox" checked disabled class="task-list-item"> VAR(1) form</label></li>
-<li><label><input type="checkbox" checked disabled class="task-list-item"> Impulse response function (IRFs)
+<li><label><input type="checkbox" checked disabled class="task-list-item"> Impulse response function (IRFs)</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Identification
 
 <ul class="task-list">
-<li><label><input type="checkbox" disabled class="task-list-item"> Identification</label></li>
 <li><label><input type="checkbox" checked disabled class="task-list-item"> Reduce form</label></li>
 <li><label><input type="checkbox" checked disabled class="task-list-item"> Cholesky</label></li>
 <li><label><input type="checkbox" disabled class="task-list-item"> BQ</label></li>
 <li><label><input type="checkbox" disabled class="task-list-item"> Uligh</label></li>
 <li><label><input type="checkbox" disabled class="task-list-item"> HFI</label></li>
-<li><label><input type="checkbox" checked disabled class="task-list-item"> Confidence bands</label></li>
+</ul></label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> Confidence bands
+
+<ul class="task-list">
 <li><label><input type="checkbox" checked disabled class="task-list-item"> Asymptotic</label></li>
 <li><label><input type="checkbox" checked disabled class="task-list-item"> Bootstrap</label></li>
 <li><label><input type="checkbox" checked disabled class="task-list-item"> Bootstrap-after-bootstrap</label></li>
+</ul></label></li>
+</ul></label></li>
 <li><label><input type="checkbox" disabled class="task-list-item"> Local projection IRFs
 
 <ul class="task-list">
@@ -322,7 +325,6 @@
 <li><label><input type="checkbox" disabled class="task-list-item"> Confidence bands</label></li>
 <li><label><input type="checkbox" disabled class="task-list-item"> Standard</label></li>
 <li><label><input type="checkbox" disabled class="task-list-item"> Bootstrap</label></li>
-</ul></label></li>
 </ul></label></li>
 </ul>
 
