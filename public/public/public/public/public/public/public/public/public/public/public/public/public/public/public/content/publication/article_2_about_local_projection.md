@@ -24,7 +24,7 @@ publication_short = "Submited"
 abstract = "<p style='text-align: justify;'>I compare the performance of the VAR impulse response function (IRF) estimator with the Jordà (2005) local projection (LP) methodology. I show by a Monte Carlo exercise that when the data generating process (DGP) is a well-specified vector autoregressive model (VAR), the standard estimator is a better alternative. However, in the general case in which the sample size is small, and the lag length of the model is misspecified, the local projection estimator is a competitive alternative to the standard VAR impulse response function estimator. Along the way, I highlight some lack in the local projection literature, which can lead to potential improvement in the estimation procedure.</p>"
 
 # Featured image thumbnail (optional)
-image_preview = ""
+image_preview = "headers/alp.png"
 
 # Is this a selected publication? (true/false)
 selected = true
@@ -58,7 +58,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "headers/alp.png"
+image = ""
 caption = ""
 
 +++
