@@ -35,7 +35,7 @@ selected = false
 #projects = [""]
 
 # Links (optional).
-url_pdf = "publication/fiscal_compact.pdf"
+url_pdf = ""
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -47,7 +47,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Appendix", url = "publication/fiscal_compact_appendix.pdf"}]
+url_custom = [{name = "Coming Soon", url = ""}]
 
 # Does the content use math formatting?
 math = true
