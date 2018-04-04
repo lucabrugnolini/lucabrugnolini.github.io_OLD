@@ -17,8 +17,22 @@ weight = 60
 
 #### I am/was the teaching assistant for the following courses at University of Rome Tor Vergata:
 
-- 2017-2018: Advanced Macroeconomics, Computational Economics
-- 2016-2017: Advanced Macroeconomics, Computational Economics
-- 2015-2016: Advanced Macroeconomics, Computational Economics
-- 2014-2015: Introduction to DSGE models, Computational Economics
-- 2013-2014: Computational Economics
+<html>
+<head>
+<style>
+ul {
+    list-style-image: url('/img/icon.png');
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li>2016-2018: Advanced Macroeconomics</li>
+  <li>2013-2018: Computational Economics</li>
+  <li>2015: Introduction to DSGE models</li>
+</ul>
+
+</body>
+</html>
+
