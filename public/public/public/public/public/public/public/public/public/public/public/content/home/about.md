@@ -10,10 +10,10 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Econometrics",
-    "Time Series",
+    "Time-Series Econometrics",
+    "Forecasting",
     "Monetary Policy",
-    "Forecasting"
+    "DSGE Models"
   ]
 
 # List your qualifications (such as academic degrees).
