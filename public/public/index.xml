@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>IAAE 2018</title>
+      <link>https://lucabrugnolini.github.io/talk/iaae2018/</link>
+      <pubDate>Sat, 14 Apr 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://lucabrugnolini.github.io/talk/iaae2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Julia Packages</title>
       <link>https://lucabrugnolini.github.io/code/code/</link>
       <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>

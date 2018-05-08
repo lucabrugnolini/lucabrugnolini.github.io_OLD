@@ -1,8 +1,8 @@
 +++
 date = 2017-01-01T00:00:00  # Schedule page publish date.
 title = "I Vienna Workshop on Economic Forecasting"
-time_start = 2018-02-16T10:30:00Z
-time_end = 2018-02-17T13:00:00Z 
+time_start = 2018-02-16T09:00:00Z
+#time_end = 2018-02-17T13:00:00Z 
 abstract = ""
 abstract_short = ""
 event = "I Vienna Workshop on Economic Forecasting"
@@ -10,7 +10,7 @@ event_url = "http://www.ihs.ac.at/conferences/forecasting/"
 location = "Vienna, Austria"
 
 # Is this a selected talk? (true/false)
-selected = true
+selected = false
 
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
