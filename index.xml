@@ -38,6 +38,15 @@
     </item>
     
     <item>
+      <title>Fiscal Compact and Debt Consolidation Dynamics</title>
+      <link>https://lucabrugnolini.github.io/publication/article_4_fiscal_compact/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucabrugnolini.github.io/publication/article_4_fiscal_compact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Julia Packages</title>
       <link>https://lucabrugnolini.github.io/code/code/</link>
       <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
@@ -51,6 +60,15 @@ forecasting variables using a combinatoric approach and exploiting parallel comp
 vector autoregressive model in Julia &lt;a href=&#34;https://lucabrugnolini.github.io/code/var/&#34;&gt;(more)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>About Local Projection Impulse Response Function Reliability</title>
+      <link>https://lucabrugnolini.github.io/publication/article_2_about_local_projection/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucabrugnolini.github.io/publication/article_2_about_local_projection/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -77,15 +95,6 @@ vector autoregressive model in Julia &lt;a href=&#34;https://lucabrugnolini.gith
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://lucabrugnolini.github.io/publication/article_1-_-monetary_shock/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>About Local Projection Impulse Response Function Reliability</title>
-      <link>https://lucabrugnolini.github.io/publication/article_2_about_local_projection/</link>
-      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucabrugnolini.github.io/publication/article_2_about_local_projection/</guid>
       <description></description>
     </item>
     
@@ -243,15 +252,6 @@ end
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
       <guid>https://lucabrugnolini.github.io/talk/first_vienna_forecasting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fiscal Compact and Debt Consolidation Dynamics</title>
-      <link>https://lucabrugnolini.github.io/publication/article_4_fiscal_compact/</link>
-      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucabrugnolini.github.io/publication/article_4_fiscal_compact/</guid>
       <description></description>
     </item>
     
