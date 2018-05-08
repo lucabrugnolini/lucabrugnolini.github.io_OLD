@@ -22,23 +22,35 @@ weight = 5
   institution = "University of Rome Tor Vergata"
   year = '2013-2018'
 
+  # List your qualifications (such as academic degrees).
+[[education.courses]]
+  course = "Visiting Ph.D. Student"
+  institution = "University College London (UCL)"
+  year = '2015'
+
+  # List your qualifications (such as academic degrees).
+[[education.courses]]
+  course = "Graduate Programme"
+  institution = "Einaudi Institute for Economics and Finance (EIEF)"
+  year = '2013-2014'
+
 [[education.courses]]
   course = "M.Sc. in Economics"
   institution = "University of Rome Tor Vergata"
   year = '2011-2013'
 
-[[education.courses]]
-  course = "B.Sc. in European Economics"
-  institution = "University of Rome Tor Vergata"
-  year = '2007-2010'
+#[[education.courses]]
+#  course = "B.Sc. in European Economics"
+#  institution = "University of Rome Tor Vergata"
+#  year = '2007-2010'
 
 
 +++
 
 # Hello!
 
-<p style='text-align: justify;'>I am a senior economist working in the research team at the Central Bank of Malta. I was previously working as an economist at the European Central Bank and as a macroeconomic researcher in the Rokos Capital hedge fund in London.</p>
+<p style='text-align: justify;'>I am a senior economist at the Central Bank of Malta's Research Department. I was previously working as an economist at the European Central Bank, and as a macroeconomic researcher at the Rokos' hedge fund in London.</p>
 
-<p style='text-align: justify;'>I am also a Ph.D. candidate at the University of Rome Tor Vergata. My research interests include time series, econometrics, and forecasting. I am also interested in understanding the effects of monetary and macroeconomic surprises on real and financial variables. In the last years, I have extensively worked on this topic using high-frequency time series.  </p>
+<p style='text-align: justify;'>Also, I am a Ph.D. candidate at the University of Rome Tor Vergata looking forward to defending my thesis. My research interests include monetary policy, time series--econometrics, and forecasting. I am also involved in understanding the effects of monetary policy surprises on financial assets. In the last years, I have extensively worked on this topic using high-frequency time series.  </p>
 
 {{% staticref "files/CV_LB_feb2018.pdf" %}}View my CV{{% /staticref %}}
