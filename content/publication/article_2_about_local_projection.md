@@ -1,6 +1,6 @@
 +++
 title = "About Local Projection Impulse Response Function Reliability"
-date = "2017-12-01"
+date = "2018-01-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["L. Brugnolini"]
