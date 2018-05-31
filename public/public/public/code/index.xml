@@ -18,8 +18,8 @@
       <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://lucabrugnolini.github.io/code/code/</guid>
-      <description> NFP.jl: Forecasting Variables using a combinatoric approach and exploiting parallel computing in Julia. (more)
- VAR.jl: Vector autoregressive model in Julia (more)
+      <description> NFP.jl: forecasting variables using a combinatoric approach and exploiting parallel computing in Julia. (more)
+ VAR.jl: vector autoregressive model in Julia (more)
   </description>
     </item>
     

@@ -40,19 +40,20 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Luca Brugnolini"
-  role = "Ph.D. Candidate"
+  role = "Senior Economist and Ph.D. Candidate"
 
   # Organizations/Affiliations.
   # Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ {name="University of Rome Tor Vergata", url ="http://economia.uniroma2.it/"} ]
+  organizations = [ {name="University of Rome Tor Vergata", url ="http://economia.uniroma2.it/"},
+   {name="Central Bank of Malta", url ="https://www.centralbankmalta.org/"} ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "picture.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "luca.brugnolini@gmail.com"
-  address = ""
+  address = "Central Bank of Malta, Laparelli Building, St. James’s Counterguard, Valletta"
   office_hours = ""
-  phone = ""
-  skype = ""
+  phone = "+356 2550 7930"
+  skype = "luca_brugnolini"
   telegram = ""
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
