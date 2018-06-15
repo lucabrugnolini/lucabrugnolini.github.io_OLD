@@ -1,6 +1,6 @@
 +++
 title = "Fiscal Compact and Debt Consolidation Dynamics"
-date = "2016-09-01"
+date = "2018-04-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["L. Brugnolini", "L. Corrado"]
@@ -21,7 +21,7 @@ publication = ""
 publication_short = "Submitted"
 
 # Abstract and optional shortened version.
-abstract = "<p style='text-align: justify;'>The paper analyses the macroeconomic effects of a debt consolidation policy in the European Union mimicking the Fiscal Compact rule. The rule requires the signatory states to target a debt-to-GDP ratio below 60%. Within the context of Dynamic Stochastic General Equilibrium models, we use a fully micro-founded New Keynesian model to understand the implications of including a debt consolidation policy. We show that in case of a negative shock hitting nominal variables (cost-push shock and monetary shock) the effects are negligible, while in case of a negative shock hitting real variables (productivity shock, public spending shock, taxation shock) the macroeconomic framework worsens as a function of the rigidity of the debt consolidation rule. As a limiting case, we show that the effects on output, employment and consumption are sizable.</p>"
+abstract = "<p style='text-align: justify;'> We analyse the macroeconomic effects of a debt consolidation policy in the Euro Area mimicking the Fiscal Compact Rule (FCR). The rule requires the signatory states to target a debt-to-GDP ratio below 60%. Within the context of Dynamic Stochastic General Equilibrium models (DSGE), we augment a fully micro-founded New-Keynesian model with a parametric linear debt consolidation rule, and we analyse the effects on the main macroeconomic aggregates. To fully understand its implications on the economy, we study different debt consolidation scenarios, allowing the excess debt to be re-absorbed with different timings. We show that including a debt consolidation rule can exacerbate the effects of the shocks in the economy by imposing a constraint on the public debt process. Secondly, we note that the effect of loosening or tightening the rule in response to a shock is heterogeneous. Shocks hitting nominal variables (monetary policy shock)  are not particularly sensitive. On the contrary, we prove that the same change has a more pronounced effect in case of shock hitting real variables (productivity and public spending shocks).  Finally, we show that the macroeconomic framework worsens as a function of the rigidity of the debt consolidation rule. As a limiting case, we show that the effects on output, employment, real wages, inflation, and interest rates are sizable.</p>"
 
 # Featured image thumbnail (optional)
 image_preview = "headers/fc.png"
@@ -35,7 +35,7 @@ selected = false
 #projects = [""]
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "publication/fiscal_compact.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -47,7 +47,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Coming Soon", url = ""}]
+#url_custom = [{name = "Coming Soon", url = ""}]
 
 # Does the content use math formatting?
 math = true
