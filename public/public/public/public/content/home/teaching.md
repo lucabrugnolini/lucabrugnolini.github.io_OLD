@@ -15,9 +15,9 @@ weight = 40
 
 +++
 
-#### I am/was the teaching assistant for the following courses at University of Rome Tor Vergata:
-
-- 2016-2018: [Macroeconomics](http://economia.uniroma2.it/master-science/economics/corso/893/), TA (Luisa Corrado). <a href="teaching/rbc_notes.pdf" class="btn">Notes</a>
-- 2013-2018: [Computational Economics](http://www.economia.uniroma2.it/public/gsie/file/Corrado.pdf), TA (Luisa Corrado). <a href="teaching/xode_NK.zip" class="btn">Code NK</a>
+#### I teach the following courses at the University of Rome Tor Vergata:
+- 2018: [Advanced Topics in International Economics](http://economia.uniroma2.it/master-science/economics/corso/893/), Lecturer.
+- 2016 to 2017: [Macroeconomics](http://economia.uniroma2.it/master-science/economics/corso/893/), TA (Luisa Corrado). <a href="teaching/rbc_notes.pdf" class="btn">Notes</a>
+- 2013 to 2017: [Computational Economics](http://www.economia.uniroma2.it/public/gsie/file/Corrado.pdf), TA (Luisa Corrado). <a href="teaching/xode_NK.zip" class="btn">Code NK</a>
 - 2015: [Introduction to DSGE models](teaching/Introduction to DSGE Models (RBC).pdf), Lecturer (Luisa Corrado). <a href="teaching/Introduction to DSGE models (NK).pdf" class="btn">Notes</a>
 

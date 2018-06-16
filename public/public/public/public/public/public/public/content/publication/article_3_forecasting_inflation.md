@@ -17,7 +17,7 @@ authors = ["L. Brugnolini"]
 publication_types = ["3"]
 
 # Publication name and optional abbreviated version.
-publication = "Work in progress"
+publication = "Central Bank of Malta Working Paper, WP/01/2018"
 publication_short = ""
 
 # Abstract and optional shortened version.

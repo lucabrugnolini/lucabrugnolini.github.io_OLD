@@ -5,7 +5,7 @@ active = true
 date = "2016-04-20T00:00:00"
 
 # Order that this section will appear in.
-weight = 5
+weight = 1
 
 # List your academic interests.
 [interests]
@@ -53,4 +53,4 @@ weight = 5
 
 <p style='text-align: justify;'>Also, I am a Ph.D. candidate at the University of Rome Tor Vergata looking forward to defending my thesis. My research interests include monetary policy, time series--econometrics, and forecasting. I am also involved in understanding the effects of monetary policy surprises on financial assets. In the last years, I have extensively worked on this topic using high-frequency time series.  </p>
 
-{{% staticref "files/CV_LB_feb2018.pdf" %}}View my CV{{% /staticref %}}
+{{% staticref "files/CV_LB_apr2018.pdf" %}}View my CV{{% /staticref %}}
