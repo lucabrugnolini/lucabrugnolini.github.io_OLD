@@ -8,7 +8,7 @@
   <meta name="theme" content="hugo-academic">
   <meta name="generator" content="Hugo 0.47.1" />
   <meta name="author" content="Luca Brugnolini">
-  <meta name="description" content="Senior Economist and Ph.D. Candidate">
+  <meta name="description" content="Senior Economist">
 
   
   <link rel="alternate" hreflang="en-us" href="https://lucabrugnolini.github.io/code/nfp/">
@@ -219,7 +219,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    3 min read
   </span>
   
 
@@ -285,12 +285,16 @@
 <pre><code class="language-julia">Pkg.clone(&quot;https://github.com/lucabrugnolini/NFP.jl&quot;)
 </code></pre>
 
+<h2 id="documentation">Documentation</h2>
+
+<p>The procedure is described in <a href="https://lucabrugnolini.github.io/publication/forecasting_inflation.pdf" target="_blank">Brugnolini L. (2018)</a>. The application in the paper is on predicting the probability of having inflation around the European Central Bank&rsquo;s target.</p>
+
 <h2 id="introduction">Introduction</h2>
 
 <p>Given a (balanced) dataset of <em>K</em> macroeconomic variables, the objective is to select the best model to predict future values of a target variable. The selection procedure consists in (i) select the best <em>iBest</em> variables according to several out-of-sample criteria and then use these variables in models that use their combination. More specifically:</p>
 
 <ol>
-<li><p>the procedure selects the best <code>iBest</code> variables using two different criteria (mean absolute error and root mean squared error). This selection step is univariate, i.e. the variables are chosen by running a simple regression of the target variable on each variable of the dataset.</p></li>
+<li><p>the procedure selects the best <code>iBest</code> variables using two different criteria (mean absolute error (MAE) and root mean squared error (RMSE) included in the model as a vector <em>fLoss</em> of functions in the form <em>f(Prediction,TrueValue)</em>). This selection step is univariate, i.e. the variables are chosen by running a simple out-of-sample  regression of the target variable on each variable of the dataset.</p></li>
 
 <li><p>the <code>iBest</code> variables are combined into set of <em>2, 3, &hellip;, iBest</em> variables. For each of these sets, the model is estimated and then avaluated out-of-sample. The best model is the one with the lowest out-of-sample <code>MSE</code>. We also augment each model with the first principal component of all variable in the dataset. Thus, there are a total of <em>2 (2^iBest)</em> models.</p></li>
 </ol>
@@ -299,26 +303,31 @@
 
 <h2 id="example">Example</h2>
 
-<p>Forecasting US non-farm-payroll one and two months ahead <code>H = [1,2]</code> using a dataset containing 116 US variables taken from McCracken and Ng (2015). <code>iBest</code> is set to 16. The code below is an example of parallelization on <code>N_CORE</code>.</p>
+<p>Forecasting US non-farm-payroll one and two months ahead <code>H = [1,2]</code> using a dataset containing 116 US variables taken from <a href="https://amstat.tandfonline.com/doi/abs/10.1080/07350015.2015.1086655" target="_blank">McCracken and Ng (2015)</a>. <code>iBest</code> is set to 16. The code below is an example of parallelization on <code>N_CORE</code>.</p>
 
 <pre><code class="language-julia">addprocs(N_CORE)
-@everywhere using NFP, DataFrames
+@everywhere using NFP
+@everywhere using CSV, DataFrames, GLM
+
+@everywhere mae(vX::Vector,vY::Vector) = mean(abs.(vX-vY))      ## MAE loss function 
+@everywhere rmse(vX::Vector,vY::Array) = sqrt(mean((vX-vY).^2)) ## RMSE loss function
+
+@everywhere const fLoss = [mae rmse] ## Vector of loss functions 
+
 @everywhere const sStart_s = &quot;01/01/15&quot;                   ## This is the beginning of the out-of-sample window
 @everywhere const iSymbol = :NFP                          ## Target variable
 @everywhere const vSymbol = [:Date, :NFP, :NFP_bb_median] ## Variables to be removed from the dataset (non-numerical and dep. var.)
 @everywhere const H = [1,2]                               ## Out-of-sample horizon
-@everywhere const iBest = 16                              ## iBest
+@everywhere const iBest = 16                               ## iBest
 @everywhere const ncomb_load = iBest                      ## TODO: remove this option
 
-@everywhere dfData = readtable(joinpath(Pkg.dir(&quot;NFP&quot;),&quot;test&quot;,&quot;data.csv&quot;), header = true)
+@everywhere const dfData = CSV.read(joinpath(Pkg.dir(&quot;NFP&quot;),&quot;test&quot;,&quot;data.csv&quot;), header = true)
 @everywhere const iStart = find(dfData[:Date] .== sStart_s)[1]
 
-
 ## computes the two steps variable selection
-l_plot,r = sforecast(dfData,vSymbol,iSymbol,H,iStart,iBest,ncomb_load)
-## `fforecast` uses results previously stored
-l_plot,r = fforecast(dfData,vSymbol,iSymbol,H,iStart,iBest,ncomb_load)
-
+l_plot,r = sforecast(dfData,vSymbol,iSymbol,H,iStart,iBest,ncomb_load,fLoss)
+## `fforecast` uses results previously stored with `sforecast`
+l_plot,r = fforecast(dfData,vSymbol,iSymbol,H,iStart,iBest,ncomb_load,fLoss)
 
 # Plot the forecasts
 l_plot
@@ -328,10 +337,25 @@ rmprocs(2:N_CORE)
 
 </code></pre>
 
-<p><em>Note:</em> Since <code>readtable</code> is deprecated in Julia v0.6, it is advisable to start julia&rsquo;s REPL using the &ndash;depwarn=no flag</p>
+<!-- ![alt text](https://raw.githubusercontent.com/lucabrugnolini/NFP.jl/loss_function_implementation/test/nfp.png) -->
 
-<pre><code class="language-bash">&gt; julia --depwarn=no
+<p>In case one is interested in predicting probabilities, as the US probability of recession, simply include a link function in <code>sforecast</code> or <code>fforecast</code>, and use a binary variable as dependent variable.</p>
+
+<pre><code class="language-julia">@everywhere const l = ProbitLink() # link function for probability model
+
+## computes the two steps variable selection
+l_plot,r = sforecast(dfData,vSymbol,iSymbol,H,iStart,iBest,ncomb_load,l,fLoss)
+## `fforecast` uses results previously stored with `sforecast`
+l_plot,r = fforecast(dfData,vSymbol,iSymbol,H,iStart,iBest,ncomb_load,l,fLoss)
 </code></pre>
+
+<!-- ![alt text](https://raw.githubusercontent.com/lucabrugnolini/NFP.jl/loss_function_implementation/test/recession.png) -->
+
+<h2 id="references">References</h2>
+
+<p>Brugnolini L. (2018) &ldquo;Forecasting Deflation Probability in the EA: A Combinatoric Approach.&rdquo; <em>Central Bank of Malta Working Paper</em>, 01/2018.</p>
+
+<p>McCracken, Michael W., and Serena Ng.(2016) &ldquo;FRED-MD: A Monthly Database for Macroeconomic Research.&rdquo; Journal of Business &amp; Economic Statistics 34.4:574-589.</p>
 
       </div>
 

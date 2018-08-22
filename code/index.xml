@@ -18,8 +18,8 @@
       <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://lucabrugnolini.github.io/code/code/</guid>
-      <description> NFP.jl: forecasting variables using a combinatoric approach and exploiting parallel computing in Julia. (more)
- VAR.jl: vector autoregressive model in Julia (more)
+      <description> VectorAutoregressions.jl: vector autoregressive model in Julia (more)
+ NFP.jl: forecasting variables using a combinatoric approach and exploiting parallel computing in Julia. (more)
   </description>
     </item>
     
@@ -29,7 +29,8 @@
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://lucabrugnolini.github.io/code/nfp/</guid>
-      <description>Forecasting Variables using a combinatoric approach and exploiting parallel computing in Julia (NFP.jl) Installation Pkg.clone(&amp;quot;https://github.com/lucabrugnolini/NFP.jl&amp;quot;)  Introduction Given a (balanced) dataset of K macroeconomic variables, the objective is to select the best model to predict future values of a target variable. The selection procedure consists in (i) select the best iBest variables according to several out-of-sample criteria and then use these variables in models that use their combination. More specifically:</description>
+      <description>Forecasting Variables using a combinatoric approach and exploiting parallel computing in Julia (NFP.jl) Installation Pkg.clone(&amp;quot;https://github.com/lucabrugnolini/NFP.jl&amp;quot;)  Documentation The procedure is described in Brugnolini L. (2018). The application in the paper is on predicting the probability of having inflation around the European Central Bank&amp;rsquo;s target.
+Introduction Given a (balanced) dataset of K macroeconomic variables, the objective is to select the best model to predict future values of a target variable. The selection procedure consists in (i) select the best iBest variables according to several out-of-sample criteria and then use these variables in models that use their combination.</description>
     </item>
     
     <item>
@@ -38,8 +39,8 @@
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://lucabrugnolini.github.io/code/var/</guid>
-      <description>Vector Autoregressive model in Julia (VAR.jl) Installation Pkg.clone(&amp;quot;https://github.com/lucabrugnolini/VAR.jl&amp;quot;)  Introduction This package is a work in progress for the estimation and identification of Vector Autoregressive (VAR) model.
-Status VAR Basic constructor Lag-length selection AIC AICC BIC HQC VAR(1) form Impulse response function (IRFs) Identification Reduce form Cholesky BQ Uligh HFI  Confidence bands Asymptotic Bootstrap Bootstrap-after-bootstrap   Local projection IRFs Lag-length selection Confidence bands Standard Bootstrap   Example using VARs V = VAR(Y, p, i)  Where Y is a matrix with data, p is the lag-length and i is a Boolean for including an intercept (default is true).</description>
+      <description>Vector autoregressive models for Julia (VAR.jl) Installation Pkg.clone(&amp;quot;https://github.com/lucabrugnolini/VectorAutoregressions.jl&amp;quot;)  Introduction This package is a work in progress for the estimation and identification of Vector Autoregressive (VAR) models.
+Status VAR VAR(1) form Lag-length selection AIC AICC BIC HQC VAR impulse response function (IRFs) Identification Reduce form Cholesky Long-run restrictions Sign restrictions Heteroskedasticity External instruments (ex. high-frequency,narrative)  Confidence bands Asymptotic Bootstrap Bootstrap-after-bootstrap  Forecasting BVAR FAVAR  Local projection IRFs Lag-length selection Confidence bands Standard Bootstrap  Bayesian Local Projection   Example ## Example: fit a VAR(`p`) to the data and derive structural IRFs with asymptotic and bootstrap conf.</description>
     </item>
     
   </channel>
