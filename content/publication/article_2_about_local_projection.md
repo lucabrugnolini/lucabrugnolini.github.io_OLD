@@ -1,6 +1,6 @@
 +++
 title = "About Local Projection Impulse Response Function Reliability"
-date = "2018-01-01"
+date = "2018-08-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["L. Brugnolini"]
@@ -17,8 +17,8 @@ authors = ["L. Brugnolini"]
 publication_types = ["3"]
 
 # Publication name and optional abbreviated version.
-publication = ""
-publication_short = "Submited"
+publication = "CEIS Research Paper, Vol. 16, Issue 6, No. 440"
+publication_short = "CEIS Research Paper, Vol. 16, Issue 6, No. 440"
 
 # Abstract and optional shortened version.
 abstract = "<p style='text-align: justify;'>I compare the performance of the VAR impulse response function (IRF) estimator with the Jordà (2005) local projection (LP) methodology. I show by a Monte Carlo exercise that when the data generating process (DGP) is a well-specified vector autoregressive model (VAR), the standard estimator is a better alternative. However, in the general case in which the sample size is small, and the lag length of the model is misspecified, the local projection estimator is a competitive alternative to the standard VAR impulse response function estimator. Along the way, I highlight some lack in the local projection literature, which can lead to potential improvement in the estimation procedure.</p>"
@@ -35,7 +35,7 @@ selected = true
 #projects = [""]
 
 # Links (optional).
-url_pdf = "publication/local_projection.pdf"
+url_pdf = "publication/about_local_projection_reliability.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

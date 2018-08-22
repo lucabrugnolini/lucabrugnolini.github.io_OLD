@@ -34,12 +34,12 @@ selected = true
 #projects = [""]
 
 # Links (optional).
-url_pdf = "publication/forecasting_inflation.pdf"
+url_pdf = "publication/forecasting_deflation_probability.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
-url_slides = "publication/IHS_forecasting_inflation_slide.pdf"
+url_slides = ""
 url_video = ""
 url_poster = ""
 url_source = ""

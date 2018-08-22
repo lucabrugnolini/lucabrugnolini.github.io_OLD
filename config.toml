@@ -40,14 +40,12 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Luca Brugnolini"
-  role = "Senior Economist and Ph.D. Candidate"
+  role = "Senior Economist"
 
   # Organizations/Affiliations.
   # Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
   organizations = [{name="Central Bank of Malta", url ="https://www.centralbankmalta.org/"},
-  {name="Research Department", url ="https://www.centralbankmalta.org/"},
-  {name="University of Rome Tor Vergata", url ="http://economia.uniroma2.it/"},
-  {name="Department of Economics and Finance", url ="http://economia.uniroma2.it/en/def/"}]
+  {name="Research Department", url ="https://www.centralbankmalta.org/"}  ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "picture.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
