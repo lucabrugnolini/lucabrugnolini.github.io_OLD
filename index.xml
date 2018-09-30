@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Measuring Euro Area Monetary Policy</title>
+      <link>https://lucabrugnolini.github.io/publication/article_1-_-monetary_shock/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucabrugnolini.github.io/publication/article_1-_-monetary_shock/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>About Local Projection Impulse Response Function Reliability</title>
       <link>https://lucabrugnolini.github.io/publication/article_2_about_local_projection/</link>
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
@@ -56,11 +65,29 @@
     </item>
     
     <item>
+      <title>RBNZ Conference on Macro-Finance</title>
+      <link>https://lucabrugnolini.github.io/talk/rbnz_macrofinance_2018/</link>
+      <pubDate>Fri, 04 May 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://lucabrugnolini.github.io/talk/rbnz_macrofinance_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>IAAE 2018</title>
       <link>https://lucabrugnolini.github.io/talk/iaae2018/</link>
       <pubDate>Sat, 14 Apr 2018 00:00:00 +0200</pubDate>
       
       <guid>https://lucabrugnolini.github.io/talk/iaae2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Forecasting Deflation Probability in The EA: A Combinatoric Approach</title>
+      <link>https://lucabrugnolini.github.io/publication/article_3_forecasting_inflation/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucabrugnolini.github.io/publication/article_3_forecasting_inflation/</guid>
       <description></description>
     </item>
     
@@ -81,29 +108,38 @@ forecasting variables using a combinatoric approach and exploiting parallel comp
     </item>
     
     <item>
-      <title>Forecasting Deflation Probability in The EA: A Combinatoric Approach</title>
-      <link>https://lucabrugnolini.github.io/publication/article_3_forecasting_inflation/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucabrugnolini.github.io/publication/article_3_forecasting_inflation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Is Anything Predictable in Macroeconomic Surprises?</title>
       <link>https://lucabrugnolini.github.io/publication/article_5_macro_surprise/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 03 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://lucabrugnolini.github.io/publication/article_5_macro_surprise/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Measuring Euro Area Monetary Policy</title>
-      <link>https://lucabrugnolini.github.io/publication/article_1-_-monetary_shock/</link>
+      <title>Bayesian Cubic Local Projection</title>
+      <link>https://lucabrugnolini.github.io/publication/article_6_bayesian_cubic_local_projection/</link>
+      <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucabrugnolini.github.io/publication/article_6_bayesian_cubic_local_projection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title> MEDSEA-FIN: A DSGE model for Malta with Financial Frictions,</title>
+      <link>https://lucabrugnolini.github.io/publication/article_7_medsea_fin/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://lucabrugnolini.github.io/publication/article_1-_-monetary_shock/</guid>
+      <guid>https://lucabrugnolini.github.io/publication/article_7_medsea_fin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Macroprudential Policy for Small-Open Economy in a Monetary Union</title>
+      <link>https://lucabrugnolini.github.io/publication/article_8_macroprudential_in_soe/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucabrugnolini.github.io/publication/article_8_macroprudential_in_soe/</guid>
       <description></description>
     </item>
     
@@ -194,131 +230,6 @@ l_plot,r = fforecast(dfData,vSymbol,iSymbol,H,iStart,iBest,ncomb_load,l,fLoss)
 
 &lt;p&gt;McCracken, Michael W., and Serena Ng.(2016) &amp;ldquo;FRED-MD: A Monthly Database for Macroeconomic Research.&amp;rdquo; Journal of Business &amp;amp; Economic Statistics 34.4:574-589.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>VAR.jl</title>
-      <link>https://lucabrugnolini.github.io/code/var/</link>
-      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucabrugnolini.github.io/code/var/</guid>
-      <description>
-
-&lt;h4 id=&#34;vector-autoregressive-models-for-julia-var-jl-https-github-com-lucabrugnolini-var-jl&#34;&gt;Vector autoregressive models for Julia (&lt;a href=&#34;https://github.com/lucabrugnolini/VAR.jl&#34; target=&#34;_blank&#34;&gt;VAR.jl&lt;/a&gt;)&lt;/h4&gt;
-
-&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;Pkg.clone(&amp;quot;https://github.com/lucabrugnolini/VectorAutoregressions.jl&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;This package is a work in progress for the estimation and identification of Vector Autoregressive (VAR) models.&lt;/p&gt;
-
-&lt;h2 id=&#34;status&#34;&gt;Status&lt;/h2&gt;
-
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; VAR
-
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; VAR(1) form&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Lag-length selection&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; AIC&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; AICC&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; BIC&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; HQC&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; VAR impulse response function (IRFs)&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Identification
-
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Reduce form&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Cholesky&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Long-run restrictions&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Sign restrictions&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Heteroskedasticity&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; External instruments (ex. high-frequency,narrative)&lt;/label&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Confidence bands
-
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Asymptotic&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Bootstrap&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Bootstrap-after-bootstrap&lt;/label&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Forecasting&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; BVAR&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; FAVAR&lt;/label&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Local projection IRFs
-
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Lag-length selection&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Confidence bands
-
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Standard&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Bootstrap&lt;/label&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Bayesian Local Projection&lt;/label&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/label&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;## Example: fit a VAR(`p`) to the data and derive structural IRFs with asymptotic and bootstrap conf. bands.
-using VectorAutoregressions, Plots
-
-y = readdlm(joinpath(Pkg.dir(&amp;quot;VectorAutoregressions&amp;quot;),&amp;quot;test&amp;quot;,&amp;quot;cholvar_test_data.csv&amp;quot;), &#39;,&#39;) #read example file with data
-intercept = false #intercept in the estimation
-p = 2 #select lag-length
-H = 15 # IRFs horizon
-nrep = 500 #bootstrap sample
-
-# Fit VAR(2) to data
-V = VAR(y,p,intercept)
-
-# Estimate IRFs - Cholesky identification
-T,K = size(y) 
-mIRFa = IRFs_a(V,H,intercept) #asymptotic conf. bandf
-mIRFb = IRFs_b(V,H,nrep,intercept) #bootstrap conf. bands
-
-# Plot irf + asy ci
-pIRF_asy = plot(layout = grid(K,K));
-[plot!(pIRF_asy, [mIRFa.CI.CIl[i,:] mIRFa.IRF[i,:] mIRFa.CI.CIh[i,:]], color = [&amp;quot;red&amp;quot; &amp;quot;red&amp;quot; &amp;quot;red&amp;quot;],
-line = [:dash :solid :dash], legend = false, subplot = i) for i in 1:K^2]
-gui(pIRF_asy)
-
-# Plot irf + bootstraped ci
-pIRF_boot = plot(layout = grid(K,K));
-[plot!(pIRF_boot, [mIRFb.CI.CIl[i,:] mIRFb.IRF[i,:] mIRFb.CI.CIh[i,:]], color = [&amp;quot;blue&amp;quot; &amp;quot;blue&amp;quot; &amp;quot;blue&amp;quot;],
-line = [:dash :solid :dash], legend = false, subplot = i) for i in 1:K^2]
-gui(pIRF_boot)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;More in details, &lt;code&gt;y&lt;/code&gt; is a matrix with data, &lt;code&gt;p&lt;/code&gt; is the lag-length of the VAR we fit to the data and &lt;code&gt;i&lt;/code&gt; is a Boolean for including an intercept (default is true). &lt;code&gt;VAR(y,p,intercept)&lt;/code&gt; returns a fitted VAR(&lt;code&gt;p&lt;/code&gt;) model in &lt;code&gt;V&lt;/code&gt; with the following structure:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-julia&#34;&gt;type VAR
-  Y::Array # dep. variables
-  X::Array # covariates
-  β::Array # parameters
-  ϵ::Array # residuals
-  Σ::Array # VCV matrix
-  p::Int64 # lag-length
-  i::Bool # true or false for including an intercept (default is true)
-end
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;You can access to each element writing &lt;code&gt;V.&lt;/code&gt; and than the element you are interested in (for example for the covariates &lt;code&gt;V.X&lt;/code&gt;).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>I Vienna Workshop on Economic Forecasting</title>
-      <link>https://lucabrugnolini.github.io/talk/first_vienna_forecasting/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
-      
-      <guid>https://lucabrugnolini.github.io/talk/first_vienna_forecasting/</guid>
-      <description></description>
     </item>
     
   </channel>
