@@ -1,9 +1,9 @@
 +++
 title = "Measuring Euro Area Monetary Policy"
-date = "2018-01-01"
+date = "2018-09-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["C. Altavilla", "L. Brugnolini", "R. Gurkaynak", "R. Motto", "G. Ragusa" ]
+authors = ["Altavilla C.", "Brugnolini L.", "Gurkaynak R.", "Motto R.", "Ragusa G." ]
 
 # Publication type.
 # Legend:

@@ -48,7 +48,7 @@ defaultContentLanguageInSubdir = false
   {name="Research Department", url ="https://www.centralbankmalta.org/"}  ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "picture.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "picture1.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "luca.brugnolini@gmail.com"
   address = "Central Bank of Malta, Laparelli Building, St. James’s Counterguard, Valletta"
   office_hours = ""

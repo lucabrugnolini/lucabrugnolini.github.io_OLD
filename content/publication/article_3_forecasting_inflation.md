@@ -1,9 +1,9 @@
 +++
 title = "Forecasting Deflation Probability in The EA: A Combinatoric Approach"
-date = "2018-01-01"
+date = "2018-01-31"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["L. Brugnolini"]
+authors = ["Brugnolini L."]
 
 # Publication type.
 # Legend:

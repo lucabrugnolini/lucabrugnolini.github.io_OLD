@@ -1,9 +1,9 @@
 +++
-title = "Is Anything Predictable in Macroeconomic Surprises?"
-date = "2018-01-03"
+title = "Bayesian Cubic Local Projection"
+date = "2018-01-02"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Brugnolini L.", "D'Agostino A.", "Tagliabracci A."]
+authors = ["Brugnolini L.", "Catania L.", "Hansen P.", "Santucci de Magistris P."]
 
 # Publication type.
 # Legend:
@@ -21,7 +21,7 @@ publication = ""
 publication_short = "Work in Progress"
 
 # Abstract and optional shortened version.
-abstract = "<p style='text-align: justify;'>We analyze the two macroeconomic releases that mostly impact the US market. The Bureau of the National Statistics (BNS) non-farm-payroll (NFP) and the manufacturing index published by the Institute for Supply Management (ISM). We examine the unexpected component of these two, as measured as deviation from the Bloomberg economist consensus. We label it as the market surprise, and we investigate whether its structure is partially predictable and in which cases. Secondly, we explore the effect of the surprises on different asset classes using intraday data. We show in a regression framework that although the in-sample fit is sufficiently good, the out-of-sample prediction hardly beat a simple autoregressive model. Finally, we present an out-of-sample analysis in a short period after the release (thirty minutes). We demonstrate that under certain circumstances there is some structure that can be exploited.  </p>"
+abstract = "<p style='text-align: justify;'>  </p>"
 
 # Featured image thumbnail (optional)
 image_preview = ""

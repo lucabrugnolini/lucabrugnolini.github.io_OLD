@@ -3,7 +3,7 @@ title = "About Local Projection Impulse Response Function Reliability"
 date = "2018-08-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["L. Brugnolini"]
+authors = ["Brugnolini L."]
 
 # Publication type.
 # Legend:

@@ -3,7 +3,7 @@ title = "Fiscal Compact and Debt Consolidation Dynamics"
 date = "2018-06-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["L. Brugnolini", "L. Corrado"]
+authors = ["Brugnolini L.", "Corrado L."]
 
 # Publication type.
 # Legend:
