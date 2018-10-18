@@ -1,6 +1,6 @@
 +++
 title = "Forecasting Deflation Probability in The EA: A Combinatoric Approach"
-date = "2018-01-31"
+date = "2018-08-31"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Brugnolini L."]
@@ -21,7 +21,7 @@ publication = "Central Bank of Malta Working Paper, WP/01/2018"
 publication_short = ""
 
 # Abstract and optional shortened version.
-abstract = "<p style='text-align: justify;'> I assess and forecast the probability of deflation in the EA at different horizons using a binomial probit model. I select the best predictors among more than one-hundred variables adopting a two-step combinatoric approach and exploiting parallel computation in Julia language. I show that the best-selected variables coincide to those standardly included in a small New Keynesian model. Also, I assess the goodness of the models using three different loss functions: the Mean Absolute Error (MAE), the Root Mean Squared Error (RMSE) and the Area Under the Receiver Operating Characteristics (AUROC). The results are reasonably consistent among the three criteria. Finally, I compute an index averaging the forecast to assess the probability of being in a deflation state in the next two years. The index shows that having inflation above the 2% level before March 2019 is extremely unlikely.</p>"
+abstract = "<p style='text-align: justify;'> I develop a two-step subset selection procedure to extract the best-performing predictors from a large dataset and combine them to identify a set of best-performing models. I apply the methodology to build an index to forecast the probability of having the euro area year-on-year inflation below the 2% level in a medium-term horizon--i.e., the Deflationary Pressure Index (DPI). I compare the index with the probabilities reported in the European Central Bank Survey of Professional Forecasters (ECB SPF) and show that, although the indexes are comoving, the DPI is more operationally convenient and timely in catching the inflation turning points. As a final exercise, in a real out-of-sample forecast, the index shows that having medium-term inflation above the 2% level before 2019 is unlikely. .</p>"
 # Featured image thumbnail (optional)
 image_preview = "headers/fi1.png"
 
