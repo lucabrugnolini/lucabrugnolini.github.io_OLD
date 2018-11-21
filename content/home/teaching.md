@@ -15,7 +15,7 @@ weight = 40
 
 +++
 
-#### I teach the following courses at the University of Rome Tor Vergata:
-- 2016 to 2018: [Macroeconomics](http://economia.uniroma2.it/master-science/economics/corso/893/), TA (Luisa Corrado). <a href="teaching/LB_notes.pdf" class="btn">Notes</a>
-- 2013 to 2017: [Computational Economics](https://sites.google.com/site/luisacorrado/pro/computational-economics), TA (Luisa Corrado). <a href="teaching/code_NK.zip" class="btn">Code NK</a>
-- 2015: Introduction to DSGE models, TA (Luisa Corrado). <a href="teaching/Introduction to DSGE Models (RBC).pdf" class="btn">Slides</a>  <a href="teaching/Introduction to DSGE models (NK).pdf" class="btn">Notes</a>
+- 2018: [DSGE Models](teaching/cbm_introduction_to_dsge_models.pdf), Central Bank of Malta, Lecturer <a href="teaching/Syllabus.pdf" class="btn">Syllabus</a>
+- 2016 to 2018: [Macroeconomics](http://economia.uniroma2.it/master-science/economics/corso/893/), University of Rome Tor Vergata, TA (Luisa Corrado). <a href="teaching/LB_notes.pdf" class="btn">Notes</a>
+- 2013 to 2017: [Computational Economics](https://sites.google.com/site/luisacorrado/pro/computational-economics), University of Rome Tor Vergata, TA (Luisa Corrado). <a href="teaching/code_NK.zip" class="btn">Code NK</a>
+- 2015: Introduction to DSGE models, University of Rome Tor Vergata, TA (Luisa Corrado). <a href="teaching/Introduction to DSGE Models (RBC).pdf" class="btn">Slides</a>  <a href="teaching/Introduction to DSGE models (NK).pdf" class="btn">Notes</a>

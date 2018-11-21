@@ -8,7 +8,7 @@
   <meta name="theme" content="hugo-academic">
   <meta name="generator" content="Hugo 0.51" />
   <meta name="author" content="Luca Brugnolini">
-  <meta name="description" content="Senior Economist">
+  <meta name="description" content="Senior Research Economist">
 
   
   <link rel="alternate" hreflang="en-us" href="https://lucabrugnolini.github.io/code/nfp/">
@@ -78,7 +78,7 @@
   
   <meta property="og:site_name" content="Luca Brugnolini">
   <meta property="og:url" content="https://lucabrugnolini.github.io/code/nfp/">
-  <meta property="og:title" content="NFP.jl | Luca Brugnolini">
+  <meta property="og:title" content="ForecastingCombinations.jl | Luca Brugnolini">
   <meta property="og:description" content="">
   <meta property="og:locale" content="en-us">
   
@@ -89,7 +89,7 @@
 
   
 
-  <title>NFP.jl | Luca Brugnolini</title>
+  <title>ForecastingCombinations.jl | Luca Brugnolini</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -203,7 +203,7 @@
 
   <div class="article-container">
     <div class="article-inner">
-      <h1 itemprop="name">NFP.jl</h1>
+      <h1 itemprop="name">ForecastingCombinations.jl</h1>
 
       
 
@@ -234,7 +234,7 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=NFP.jl&amp;url=https%3a%2f%2flucabrugnolini.github.io%2fcode%2fnfp%2f"
+         href="https://twitter.com/intent/tweet?text=ForecastingCombinations.jl&amp;url=https%3a%2f%2flucabrugnolini.github.io%2fcode%2fnfp%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
@@ -248,21 +248,21 @@
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2flucabrugnolini.github.io%2fcode%2fnfp%2f&amp;title=NFP.jl"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2flucabrugnolini.github.io%2fcode%2fnfp%2f&amp;title=ForecastingCombinations.jl"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2flucabrugnolini.github.io%2fcode%2fnfp%2f&amp;title=NFP.jl"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2flucabrugnolini.github.io%2fcode%2fnfp%2f&amp;title=ForecastingCombinations.jl"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=NFP.jl&amp;body=https%3a%2f%2flucabrugnolini.github.io%2fcode%2fnfp%2f">
+         href="mailto:?subject=ForecastingCombinations.jl&amp;body=https%3a%2f%2flucabrugnolini.github.io%2fcode%2fnfp%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -278,11 +278,11 @@
       <div class="article-style" itemprop="articleBody">
         
 
-<h4 id="forecasting-variables-using-a-combinatoric-approach-and-exploiting-parallel-computing-in-julia-nfp-jl-https-github-com-lucabrugnolini-nfp-jl">Forecasting Variables using a combinatoric approach and exploiting parallel computing in Julia (<a href="https://github.com/lucabrugnolini/NFP.jl" target="_blank">NFP.jl</a>)</h4>
+<h4 id="forecasting-variables-using-a-combinatoric-approach-and-exploiting-parallel-computing-in-julia-forecastingcombinations-jl-https-github-com-lucabrugnolini-forecastingcombinations-jl">Forecasting Variables using a combinatoric approach and exploiting parallel computing in Julia (<a href="https://github.com/lucabrugnolini/ForecastingCombinations.jl" target="_blank">ForecastingCombinations.jl</a>)</h4>
 
 <h2 id="installation">Installation</h2>
 
-<pre><code class="language-julia">Pkg.clone(&quot;https://github.com/lucabrugnolini/NFP.jl&quot;)
+<pre><code class="language-julia">Pkg.clone(&quot;https://github.com/lucabrugnolini/ForecastingCombinations.jl&quot;)
 </code></pre>
 
 <h2 id="documentation">Documentation</h2>
@@ -306,7 +306,7 @@
 <p>Forecasting US non-farm-payroll one and two months ahead <code>H = [1,2]</code> using a dataset containing 116 US variables taken from <a href="https://amstat.tandfonline.com/doi/abs/10.1080/07350015.2015.1086655" target="_blank">McCracken and Ng (2015)</a>. <code>iBest</code> is set to 16. The code below is an example of parallelization on <code>N_CORE</code>.</p>
 
 <pre><code class="language-julia">addprocs(N_CORE)
-@everywhere using NFP
+@everywhere using ForecastingCombinations
 @everywhere using CSV, DataFrames, GLM
 
 @everywhere mae(vX::Vector,vY::Vector) = mean(abs.(vX-vY))      ## MAE loss function 
@@ -321,7 +321,7 @@
 @everywhere const iBest = 16                               ## iBest
 @everywhere const ncomb_load = iBest                      ## TODO: remove this option
 
-@everywhere const dfData = CSV.read(joinpath(Pkg.dir(&quot;NFP&quot;),&quot;test&quot;,&quot;data.csv&quot;), header = true)
+@everywhere const dfData = CSV.read(joinpath(Pkg.dir(&quot;ForecastingCombinations&quot;),&quot;test&quot;,&quot;data.csv&quot;), header = true)
 @everywhere const iStart = find(dfData[:Date] .== sStart_s)[1]
 
 ## computes the two steps variable selection
@@ -337,7 +337,7 @@ rmprocs(2:N_CORE)
 
 </code></pre>
 
-<!-- ![alt text](https://raw.githubusercontent.com/lucabrugnolini/NFP.jl/loss_function_implementation/test/nfp.png) -->
+<!-- ![alt text](https://raw.githubusercontent.com/lucabrugnolini/ForecastingCombinations.jl/loss_function_implementation/test/nfp.png) -->
 
 <p>In case one is interested in predicting probabilities, as the US probability of recession, simply include a link function in <code>sforecast</code> or <code>fforecast</code>, and use a binary variable as dependent variable.</p>
 
@@ -349,7 +349,7 @@ l_plot,r = sforecast(dfData,vSymbol,iSymbol,H,iStart,iBest,ncomb_load,l,fLoss)
 l_plot,r = fforecast(dfData,vSymbol,iSymbol,H,iStart,iBest,ncomb_load,l,fLoss)
 </code></pre>
 
-<!-- ![alt text](https://raw.githubusercontent.com/lucabrugnolini/NFP.jl/loss_function_implementation/test/recession.png) -->
+<!-- ![alt text](https://raw.githubusercontent.com/lucabrugnolini/ForecastingCombinations.jl/loss_function_implementation/test/recession.png) -->
 
 <h2 id="references">References</h2>
 

@@ -1,15 +1,15 @@
 +++
 date = "2017-08-01"
-title = "NFP.jl"
+title = "ForecastingCombinations.jl"
 +++
 
 
-#### Forecasting Variables using a combinatoric approach and exploiting parallel computing in Julia ([NFP.jl](https://github.com/lucabrugnolini/NFP.jl))
+#### Forecasting Variables using a combinatoric approach and exploiting parallel computing in Julia ([ForecastingCombinations.jl](https://github.com/lucabrugnolini/ForecastingCombinations.jl))
 
 
 ## Installation
 ```julia
-Pkg.clone("https://github.com/lucabrugnolini/NFP.jl")
+Pkg.clone("https://github.com/lucabrugnolini/ForecastingCombinations.jl")
 ```
 
 ## Documentation
@@ -31,7 +31,7 @@ Forecasting US non-farm-payroll one and two months ahead `H = [1,2]` using a dat
 
 ```julia
 addprocs(N_CORE)
-@everywhere using NFP
+@everywhere using ForecastingCombinations
 @everywhere using CSV, DataFrames, GLM
 
 @everywhere mae(vX::Vector,vY::Vector) = mean(abs.(vX-vY))      ## MAE loss function 
@@ -46,7 +46,7 @@ addprocs(N_CORE)
 @everywhere const iBest = 16                               ## iBest
 @everywhere const ncomb_load = iBest                      ## TODO: remove this option
 
-@everywhere const dfData = CSV.read(joinpath(Pkg.dir("NFP"),"test","data.csv"), header = true)
+@everywhere const dfData = CSV.read(joinpath(Pkg.dir("ForecastingCombinations"),"test","data.csv"), header = true)
 @everywhere const iStart = find(dfData[:Date] .== sStart_s)[1]
 
 ## computes the two steps variable selection
@@ -62,7 +62,7 @@ rmprocs(2:N_CORE)
 
 ```
 
-<!-- ![alt text](https://raw.githubusercontent.com/lucabrugnolini/NFP.jl/loss_function_implementation/test/nfp.png) -->
+<!-- ![alt text](https://raw.githubusercontent.com/lucabrugnolini/ForecastingCombinations.jl/loss_function_implementation/test/nfp.png) -->
 
 In case one is interested in predicting probabilities, as the US probability of recession, simply include a link function in `sforecast` or `fforecast`, and use a binary variable as dependent variable.
 
@@ -74,7 +74,7 @@ l_plot,r = sforecast(dfData,vSymbol,iSymbol,H,iStart,iBest,ncomb_load,l,fLoss)
 ## `fforecast` uses results previously stored with `sforecast`
 l_plot,r = fforecast(dfData,vSymbol,iSymbol,H,iStart,iBest,ncomb_load,l,fLoss)
 ```
-<!-- ![alt text](https://raw.githubusercontent.com/lucabrugnolini/NFP.jl/loss_function_implementation/test/recession.png) -->
+<!-- ![alt text](https://raw.githubusercontent.com/lucabrugnolini/ForecastingCombinations.jl/loss_function_implementation/test/recession.png) -->
 
 ## References
 Brugnolini L. (2018) "Forecasting Deflation Probability in the EA: A Combinatoric Approach." _Central Bank of Malta Working Paper_, 01/2018.

@@ -24,12 +24,12 @@
     </item>
     
     <item>
-      <title>NFP.jl</title>
+      <title>ForecastingCombinations.jl</title>
       <link>https://lucabrugnolini.github.io/code/nfp/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://lucabrugnolini.github.io/code/nfp/</guid>
-      <description>Forecasting Variables using a combinatoric approach and exploiting parallel computing in Julia (NFP.jl) Installation Pkg.clone(&amp;quot;https://github.com/lucabrugnolini/NFP.jl&amp;quot;)  Documentation The procedure is described in Brugnolini L. (2018). The application in the paper is on predicting the probability of having inflation around the European Central Bank&amp;rsquo;s target.
+      <description>Forecasting Variables using a combinatoric approach and exploiting parallel computing in Julia (ForecastingCombinations.jl) Installation Pkg.clone(&amp;quot;https://github.com/lucabrugnolini/ForecastingCombinations.jl&amp;quot;)  Documentation The procedure is described in Brugnolini L. (2018). The application in the paper is on predicting the probability of having inflation around the European Central Bank&amp;rsquo;s target.
 Introduction Given a (balanced) dataset of K macroeconomic variables, the objective is to select the best model to predict future values of a target variable. The selection procedure consists in (i) select the best iBest variables according to several out-of-sample criteria and then use these variables in models that use their combination.</description>
     </item>
     
