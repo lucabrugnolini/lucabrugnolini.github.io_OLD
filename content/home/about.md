@@ -44,6 +44,7 @@ weight = 1
 #  institution = "University of Rome Tor Vergata"
 #  year = '2007-2010'
 
+#{{% staticref "files/CV_LB_oct2018.pdf" %}}View my CV{{% /staticref %}}
 
 +++
 
@@ -54,4 +55,3 @@ weight = 1
 <p style='text-align: justify;'>My research interests include monetary policy, time-series econometrics, and forecasting. I am also involved in understanding the effects of monetary policy surprises on financial assets. In the last years, I have extensively worked on this topic using high-frequency data.  </p>
 
 
-{{% staticref "files/CV_LB_oct2018.pdf" %}}View my CV{{% /staticref %}}
