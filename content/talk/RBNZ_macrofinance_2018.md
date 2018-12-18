@@ -19,11 +19,12 @@ projects = []
 
 # Links (optional).
 url_pdf = ""
-url_slides = ""
+url_slides = "talk/pdf/rbnz_2018.pdf"
 url_video = ""
 url_code = ""
 
-url_custom = [{name = "Article", url = "publication/article_1-_-monetary_shock/"}]
+#url_custom = [{name = "Article", url = "publication/article_1-_-monetary_shock/"}]
+url_custom = [{name = "Discussion", url = "talk/pdf/rbnz_discussion_2018.pdf"}]
 
 # Does the content use math formatting?
 math = true

@@ -1,11 +1,11 @@
 +++
 date = 2018-11-19T00:00:00  # Schedule page publish date.
-title = "Central Bank of Malta Workshop"
+title = "Central Bank of Malta Annual Research Workshop"
 time_start = 2018-11-19T09:00:00
 #time_end = 2018-06-29T16:00:00
 abstract = ""
 abstract_short = ""
-event = "Central Bank of Malta Workshop"
+event = "Central Bank of Malta Annual Research Workshop"
 event_url = ""
 location = "La Valletta, Malta"
 
@@ -19,7 +19,7 @@ projects = []
 
 # Links (optional).
 url_pdf = ""
-url_slides = ""
+url_slides = "talk/pdf/cb_malta_nov2018.pdf"
 url_video = ""
 url_code = ""
 
