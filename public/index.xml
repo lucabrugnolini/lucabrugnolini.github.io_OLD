@@ -1,74 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Luca Brugnolini</title>
+    <title>Luca Brugnolini on Luca Brugnolini</title>
     <link>https://lucabrugnolini.github.io/</link>
-    <description>Recent content on Luca Brugnolini</description>
+    <description>Recent content in Luca Brugnolini on Luca Brugnolini</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Luca Brugnolini</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://lucabrugnolini.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title></title>
-      <link>https://lucabrugnolini.github.io/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucabrugnolini.github.io/home/about/</guid>
-      <description>Hello! I am a senior research economist at the Central Bank of Malta&#39;s Research Department. I was previously working as an economist at the European Central Bank, and as a macroeconomic researcher at the Rokos&#39; hedge fund in London.
-My research interests include monetary policy, time-series econometrics, and forecasting. I am also involved in understanding the effects of monetary policy surprises on financial assets. In the last years, I have extensively worked on this topic using high-frequency data.</description>
-    </item>
-    
-    <item>
-      <title>Upcoming &amp; Recent Talks</title>
-      <link>https://lucabrugnolini.github.io/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucabrugnolini.github.io/home/talks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recent Works</title>
-      <link>https://lucabrugnolini.github.io/home/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
-      
-      <guid>https://lucabrugnolini.github.io/home/publications_selected/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Work in Progress</title>
-      <link>https://lucabrugnolini.github.io/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
-      
-      <guid>https://lucabrugnolini.github.io/home/publications/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Teaching</title>
-      <link>https://lucabrugnolini.github.io/home/teaching/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucabrugnolini.github.io/home/teaching/</guid>
-      <description> 2018: DSGE Models, Central Bank of Malta, Lecturer Syllabus 2016 to 2018: Macroeconomics, University of Rome Tor Vergata, TA (Luisa Corrado). Notes 2013 to 2017: Computational Economics, University of Rome Tor Vergata, TA (Luisa Corrado). Code NK 2015: Introduction to DSGE models, University of Rome Tor Vergata, TA (Luisa Corrado). Slides Notes  </description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://lucabrugnolini.github.io/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucabrugnolini.github.io/home/contact/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Central Bank of Malta Workshop</title>
+      <title>Central Bank of Malta Annual Research Workshop</title>
       <link>https://lucabrugnolini.github.io/talk/cbm_workshop_2018/</link>
       <pubDate>Mon, 19 Nov 2018 00:00:00 +0100</pubDate>
       
@@ -181,9 +124,14 @@ My research interests include monetary policy, time-series econometrics, and for
       <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://lucabrugnolini.github.io/code/code/</guid>
-      <description> VectorAutoregressions.jl: vector autoregressive model in Julia (more)
- NFP.jl: forecasting variables using a combinatoric approach and exploiting parallel computing in Julia. (more)
-  </description>
+      <description>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/lucabrugnolini/VectorAutoregressions.jl&#34; target=&#34;_blank&#34;&gt;VectorAutoregressions.jl:&lt;/a&gt;
+Vector Autoregressive (VAR) models in Julia.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/lucabrugnolini/NFP.jl&#34; target=&#34;_blank&#34;&gt;ForecastingCombinations.jl:&lt;/a&gt;
+forecasting using a combinatoric approach and exploiting parallel computing in Julia.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
     </item>
     
     <item>
@@ -201,53 +149,6 @@ My research interests include monetary policy, time-series econometrics, and for
       <pubDate>Tue, 02 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://lucabrugnolini.github.io/publication/article_6_bayesian_cubic_local_projection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title> MEDSEA-FIN: A DSGE model for Malta with Financial Frictions,</title>
-      <link>https://lucabrugnolini.github.io/publication/article_7_medsea_fin/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucabrugnolini.github.io/publication/article_7_medsea_fin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Macroprudential Policy for Small-Open Economy in a Monetary Union</title>
-      <link>https://lucabrugnolini.github.io/publication/article_8_macroprudential_in_soe/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucabrugnolini.github.io/publication/article_8_macroprudential_in_soe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ForecastingCombinations.jl</title>
-      <link>https://lucabrugnolini.github.io/code/nfp/</link>
-      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucabrugnolini.github.io/code/nfp/</guid>
-      <description>Forecasting Variables using a combinatoric approach and exploiting parallel computing in Julia (ForecastingCombinations.jl) Installation Pkg.clone(&amp;quot;https://github.com/lucabrugnolini/ForecastingCombinations.jl&amp;quot;)  Documentation The procedure is described in Brugnolini L. (2018). The application in the paper is on predicting the probability of having inflation around the European Central Bank&amp;rsquo;s target.
-Introduction Given a (balanced) dataset of K macroeconomic variables, the objective is to select the best model to predict future values of a target variable. The selection procedure consists in (i) select the best iBest variables according to several out-of-sample criteria and then use these variables in models that use their combination.</description>
-    </item>
-    
-    <item>
-      <title>VAR.jl</title>
-      <link>https://lucabrugnolini.github.io/code/var/</link>
-      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucabrugnolini.github.io/code/var/</guid>
-      <description>Vector autoregressive models for Julia (VAR.jl) Installation Pkg.clone(&amp;quot;https://github.com/lucabrugnolini/VectorAutoregressions.jl&amp;quot;)  Introduction This package is a work in progress for the estimation and identification of Vector Autoregressive (VAR) models.
-Status VAR VAR(1) form Lag-length selection AIC AICC BIC HQC VAR impulse response function (IRFs) Identification Reduce form Cholesky Long-run restrictions Sign restrictions Heteroskedasticity External instruments (ex. high-frequency,narrative)  Confidence bands Asymptotic Bootstrap Bootstrap-after-bootstrap  Forecasting BVAR FAVAR  Local projection IRFs Lag-length selection Confidence bands Standard Bootstrap  Bayesian Local Projection   Example ## Example: fit a VAR(`p`) to the data and derive structural IRFs with asymptotic and bootstrap conf.</description>
-    </item>
-    
-    <item>
-      <title>I Vienna Workshop on Economic Forecasting</title>
-      <link>https://lucabrugnolini.github.io/talk/first_vienna_forecasting/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
-      
-      <guid>https://lucabrugnolini.github.io/talk/first_vienna_forecasting/</guid>
       <description></description>
     </item>
     

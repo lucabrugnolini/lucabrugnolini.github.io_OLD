@@ -18,8 +18,8 @@
       <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://lucabrugnolini.github.io/code/code/</guid>
-      <description> VectorAutoregressions.jl: vector autoregressive model in Julia (more)
- NFP.jl: forecasting variables using a combinatoric approach and exploiting parallel computing in Julia. (more)
+      <description> VectorAutoregressions.jl: Vector Autoregressive (VAR) models in Julia.
+ ForecastingCombinations.jl: forecasting using a combinatoric approach and exploiting parallel computing in Julia.
   </description>
     </item>
     
